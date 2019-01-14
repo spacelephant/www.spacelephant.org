@@ -2,14 +2,14 @@ enable : true
 heading : Les
 headingSpan : Fondateurs
 descriptionItem :
-- content : We are proud to contribute to the generous, disruptive, universal impact of blockchain-based services.
-- content : We support decentralizing everything and yet we use GAFA services, we are neither perfect nor cynics...
+- content : Nous sommes fiers de contribuer au généreux, disruptif et universel impact sur les services basés sur la blockchain.
+- content : Nous participons à la décentralisation en général et utilisons malgré tout les services du GAFA, nul n'est parfait...
 teamMember :
   - image : /images/team/laurent.jpg
     name : Laurent Lourenço
     anchor : laurent
     designation : CEO
-    description : Exploring bitcoin in 2012 has convinced Laurent that blockchain technology is going to impact Society significantly. On his spare time, Laurent loves sharing barbecues with friends.
+    description : "Depuis qu'il a découvert Bitcoin en 2012, Laurent est convaincu que la technologie Blockchain va avoir un impact considérable sur la société. Pendant son temps libre, Laurent est quelqu'un qui apprécie partager des barbecues avec des amis."
     socialIcon :
       - icon : fab fa-linkedin-in
         url : "https://www.linkedin.com/in/laurentlourenco"
@@ -22,7 +22,7 @@ teamMember :
     name : Damien Lecan
     anchor : damien
     designation : CTO & Blockchain Architect
-    description : Damien fell in love with the DLT technology in 2015, then led the charge to develop blockchain-based solutions. A desire to do more has made him become an entrepreneur. Damien is decentralized by design.
+    description : "Damien est tombé amoureux des technologies du décentralisé en 2015, avant de prendre la tête du développement de solutions basées sur la Blockchain. Son désir de faire plus l'a fait devenir entrepreneur. Damien est décentralisé par conception."
     socialIcon :
       - icon : fab fa-linkedin-in
         url : "https://www.linkedin.com/in/damienlecan"
@@ -37,7 +37,7 @@ teamMember :
     name : Fabien Tréguer
     anchor : fabien
     designation : Full-Stack dev
-    description : Apart from having a deep interest in the technology and its applications, Fabien spent a considerable amount of time collecting data about Blockchain projects, real-world use-cases, and inter-wallet transactions.
+    description : "En plus de s'intéresser de près aux technologies du décentralisé et à leurs applications, Fabien a passé beaucoup de temps à collecter des données sur les projets Blockchain, les cas d'usages réels et les transactions inter-portefeuilles."
     socialIcon :
       - icon : fab fa-linkedin-in
         url : "https://www.linkedin.com/in/fabientreguer"
@@ -50,7 +50,7 @@ teamMember :
     name : Guillaume Nicolas
     anchor : guillaume
     designation : Blockchain Expert
-    description : Guillaume fell in love with the dynamic and caring community, and he decided to make open-source project vision his. Guillaume is developing Blockchain solutions democratizing the use of cryptocurrencies.
+    description : "Guillaume a intégré très tôt la communauté Blockchain pour son dynamisme et sa bienveillancee avant de décider de faire de sienne la vision Open-Source. Guillaume développe des solutions Blockchain démocratisant l'utilisation des crypto-monnaies."
     socialIcon :
       - icon : fab fa-linkedin-in
         url : "https://www.linkedin.com/in/guillaume-nicolas-8177427b"

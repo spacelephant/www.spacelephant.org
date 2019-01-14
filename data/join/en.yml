@@ -6,8 +6,8 @@ headingSpan : Us
 subHeading : We are looking for you
 description : "Email us a quick link to your LinkedIn and Github profile with a few words on why you think you are a good fit highlighting any of the above items to:"
 jobItem : 
-  - name : Fullstack developper
-  - name : Blockchain developper
+  - name : Fullstack developer
+  - name : Blockchain developer
   - name : Dev Ops
   - name : Security & audit
   - name : Product Owner

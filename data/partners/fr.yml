@@ -1,29 +1,29 @@
 enable: true
 heading: Nos
-headingSpan: Partanaires
+headingSpan: Partenaires
 description: Ils nous soutiennent
 partnerItem:
 - name: Digital School YNOV Campus
   image: /images/partners/ynov.svg
   moreLink: "https://ynov.com/"
-  description: "Training of computer engineers. 6 campuses in France. We provide the blockchain training program. We source our futur talents. The campus of Nantes hosts our start-up."
+  description: "École d'ingénieurs informatique disposant de 6 campus en France. Nous organisons le programme d'éducation autour de la blockchain tout en préparant nos talents de demain! Le campus de Nantes héberge notre start-up."
 - name: ARK.IO Major Blockchain Actor
   image: /images/partners/ark.svg
   moreLink: "https://ark.io/"
-  description: "DPOS Blockchain type framework, one of the most powerful on the market. The blockchain architecture of UNS relies on this technology."
+  description: "Blockchain de type DPOS orientée framework, l’une des plus puissantes du marché. L'architecture blockchain du Universal Naming System repose sur cette technologie."
 - name: CYLLENE French Datacenter
   image: /images/partners/cyllene.png
   moreLink: "https://www.groupe-cyllene.com/"
-  description: "Cloud, hybrid, Expert in infrastructure and in cyber security. Provider of ressources and expertise for our team."
+  description: "Cloud, Hybride, Expert en infrastructure et en cyber-sécurité. Fournisseur de ressources et d'expertise pour notre équipe."
 - name: BIGBLOCK Datacenter
   image: /images/partners/BBDC.png
   moreLink: "https://www.bdatacenter.fr/"
-  description: "Blockchain calculations and mining, transaction validation."
+  description: "Calculs Blockchain et minage, validations des transactions."
 - name: Cryptodidacte
   image: /images/partners/cryptodidacte.png
   moreLink: "https://www.cryptodidacte.fr/"
-  description: "French crypto-influencer."
+  description: "Influenceur français dans le domaine des crypto-monnaies."
 - name: EMBLOCK
   image: /images/partners/emblock.png
   moreLink: "https://emblock.co/"
-  description: "Blockchain as a service provider, giving access to multi-blockchains infrastructure, APIs and analytics."
+  description: "Fournisseur de services Blockchain, permettant l'accès à une infrastructure, à des API et à des analyses multi-blockchains."

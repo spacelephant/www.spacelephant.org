@@ -1,15 +1,15 @@
 enable : true
 heading : Nos
 headingSpan : Buts
-summary : You are guaranteed systems with remarkable properties.
+summary : Garantir un système irréprochable disposant de propriétés uniques
 bgImage : "images/backgrounds/world_2.jpg"
 goalItem :
 - title: "Pour tous"
   iconPath : /images/works/for-everyone.svg
-  summary : "We make blockchain services available and easily accessible to everyone in the world."
+  summary : "Nous permettons à tous un accès facilité aux services Blockchain et décentralisés."
 - title: "UX"
   iconPath : /images/works/great-ux.svg
-  summary : "We emphasize the gifts and virtues of technologies, rather than technologies themselves."
+  summary : "Nous mettons avant tout l'accent sur les bénéfices et atouts des technologies, à défaut des technologies elles-mêmes."
 - title: "Sécurité"
   iconPath : /images/works/secure.svg
-  summary : "We give security the utmost importance, both from a technical and a functional standpoint."
+  summary : "Nous accordons à la sécurité de nos systèmes la plus grande importance, autant sur le plan technique que fonctionnel."
