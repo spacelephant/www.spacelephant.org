@@ -22,7 +22,7 @@
                                 {{ .}}
                             </p>
                             {{ end }}
-                            {{ with .contactEmail }}<a href="mailto:{{ . }}">{{ . }}</a>{{ end }}
+                            {{ with .contactEmail }}<a class="bold" href="mailto:{{ . }}">{{ . }}</a>{{ end }}
                             {{ if .jobItem }}
                                 <ul class="jobs">
                                     {{ range .jobItem }}

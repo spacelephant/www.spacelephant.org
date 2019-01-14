@@ -33,9 +33,9 @@
 
                             {{"<!-- member name & designation -->" | safeHTML}}
                             <div class="member-meta">
-                                <h4>{{ .name }}</h4>
-                                <span>{{ .designation }}</span>
-                                <p>{{ .description }}</p>
+                                {{ with .name }}<h4>{{ . }}</h4>{{ end }}
+                                {{ with .designation }}<span class="designation">{{ . }}</span>{{ end }}
+                                {{ with .description }}<p class="description">{{ . }}</p>{{ end }}
                             </div>
                         </div>
                     </div>

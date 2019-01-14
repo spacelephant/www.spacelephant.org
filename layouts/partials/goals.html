@@ -22,7 +22,7 @@
                     {{ range .goalItem }}
                     <div class="col-12 col-sm-4 text-center goal wow fadeInUp" data-wow-duration="500ms">
                         <div class="counters-item">
-                            {{with .iconPath}}<img src="{{ . }}" />{{ end }}
+                            {{with .iconPath}}<img class="goal-image" src="{{ . }}" />{{ end }}
                             <h3>{{ .title }}</h3>
                             <p>
                                 {{ .summary }}

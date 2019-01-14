@@ -61,8 +61,16 @@ d88P         d88P        "Y8888P"   "Y8888P"  88888P"  888  888
                                               888               
 */
 @media screen and (min-width: 768px) {
-.linkLike {
+#navigation #languagesMenu li .linkLike {
     padding: 3px 20px;
+}
+
+#navigation #languagesMenu li * {
+    color: #737f8a;
+}
+
+#navigation #languagesMenu li a:hover {
+    color: #f99400;
 }
 
 
@@ -85,18 +93,7 @@ d88P         d88P        "Y8888P"   "Y8888P"  88888P"  888  888
  |  __/ (_| | |  | |_| | | |  __/ |  \__ \
  |_|   \__,_|_|   \__|_| |_|\___|_|  |___/
 */                                              
-    #partners .partner {
-        flex-direction: row;
-    }
 
-    #partners .partner .part-logo {
-        flex-direction: column;
-    }
-
-    #partners .partner .part-logo img {
-        max-width: 100px;
-        height: auto;
-    }
 
 }
 

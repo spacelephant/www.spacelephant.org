@@ -7,7 +7,7 @@
 						{{ range .Site.Data.contact.contactDetails }}
 						<div class="con-info clearfix">
 							{{ if .href }}
-							<a href="{{ .href }}">
+							<a {{ printf "href=%q" .href | safeHTMLAttr }} >
 								<i class="{{ .icon }}"></i>
 								<span>{{ .info }}</span>
 							</a>
@@ -22,7 +22,7 @@
 				<div class="social-icon col-12 col-lg-6">
 					<ul class="list-inline">
 						{{ range .Site.Params.footer.socialIcon }}
-            			<li><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
+            			<li><a href="{{ .url }}" target="_blank"><i class="{{ .icon }}"></i></a></li>
 						{{ end }}
 					</ul>
 				</div>
@@ -31,7 +31,7 @@
 				<div class="copyright text-center">
 					{{ $languagePath := (cond (eq ($.Site.Language.Lang) "en") "" (printf "/%s" $.Site.Language.Lang)) }}
 					<a href="{{ .Site.BaseURL | absURL }}{{ $languagePath }}">
-						<img src="{{ .Site.Params.logo | absURL }}" alt="logo space elephant" /> 
+						<img src="{{ .Site.Params.logofooter | absURL }}" alt="logo space elephant" /> 
 					</a>
 					<br>
 
@@ -45,6 +45,10 @@
 							document.write(new Date().getFullYear())
 						</script>. All Rights Reserved.
 					</p>
+
+					<p>
+						Design based on <a class="bold" href="https://github.com/themefisher/meghna-hugo">Meghna Template</a> by <a class="bold" href="https://github.com/themefisher">themefisher</a>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -55,7 +59,7 @@
 {{"<!-- Essential Scripts -->" | safeHTML}}
 		
 {{"<!-- Font CDN import  -->" | safeHTML}}
-<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet" type="text/css" />
 
 {{"<!-- Main jQuery -->" | safeHTML}}
 <script type="text/javascript" src="{{ "plugins/jquery/dist/jquery.min.js" | absURL}}"></script>
@@ -64,7 +68,7 @@
 {{"<!-- Slick Carousel -->" | safeHTML}}
 <script type="text/javascript" src="{{ "plugins/slick-carousel/slick/slick.min.js" | absURL}}"></script>
 {{"<!-- Portfolio Filtering -->" | safeHTML}}
-<script type="text/javascript" src="{{ "plugins/mixitup/mixitup.min.js" | absURL}}"></script>
+<!-- <script type="text/javascript" src="{{ "plugins/mixitup/mixitup.min.js" | absURL}}"></script> -->
 {{"<!-- Smooth Scroll -->" | safeHTML}}
 <script type="text/javascript" src="{{ "plugins/smooth-scroll/dist/js/smooth-scroll.min.js" | absURL}}"></script>
 {{"<!-- Magnific popup -->" | safeHTML}}
@@ -74,7 +78,7 @@
 {{"<!-- Sticky Nav -->" | safeHTML}}
 <script type="text/javascript" src="{{ "plugins/Sticky/jquery.sticky.js" | absURL}}"></script>
 {{"<!-- Number Counter Script -->" | safeHTML}}
-<script type="text/javascript" src="{{ "plugins/count-to/jquery.countTo.js" | absURL}}"></script>
+<!-- <script type="text/javascript" src="{{ "plugins/count-to/jquery.countTo.js" | absURL}}"></script> -->
 {{"<!-- wow.min Script -->" | safeHTML}}
 <script type="text/javascript" src="{{ "plugins/wow/dist/wow.min.js" | absURL}}"></script>
 {{"<!-- Custom js -->" | safeHTML}}

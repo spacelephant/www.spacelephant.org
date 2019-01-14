@@ -9,30 +9,23 @@
                 <div class="title text-center wow fadeInLeft" data-wow-duration="500ms">
                     <h2>{{ .heading}} <span class="color">{{ .headingSpan}}</span> </h2>
                     <div class="border"></div>
+                    {{ if .description}}
+                    <h3 class="description">
+                        {{ .description }}    
+                    </h3>
+                    {{ end }}
                 </div>
                 {{"<!-- /section title -->" | safeHTML}}
 
-
-                {{ if .description}}
-                <h3 class="description">
-                    {{ .description }}    
-                </h3>
-                {{ end }}
-
-                <div class=" logos wow fadeIn" data-wow-duration="3000ms">
+                <div class="partners">
                     {{ range .partnerItem }}
-                    <div class="col-xs-4 col-sm-3 col-md-2 text-center" >
-                        <a class="more" href="{{ .moreLink }}" target="_blank">
-                            <img class="img-responsive" src="{{ .image }}" />
-                        </a>
-                    </div>
-                    {{ end }}
-                </div>
-
-                <div class=" details">
-                    {{ range .partnerItem }}
-                        <div class="partner col-12 col-sm-6 col-lg-4 wow fadeIn" data-wow-duration="4000ms">
-                            <div class="description ">
+                        <div class="partner col-xs-12 col-sm-6 col-lg-4 wow fadeIn" data-wow-duration="4000ms">
+                            <a class="logo" href="{{ .moreLink }}" target="_blank">
+                                <img class="img-responsive" src="{{ .image }}" />
+                            </a>
+                            <div class="description">
+                                <div>
+                                </div>
                                 <h4>{{ .name }}</h4>
                                 <p>
                                     {{ .description }}
