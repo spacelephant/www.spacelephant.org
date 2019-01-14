@@ -1,0 +1,24 @@
+
+[build]
+# This is the directory that you are publishing from (relative to root of your repo)
+  publish = "public"
+  command = "hugo --gc --minify"
+
+[context.master.environment]
+  HUGO_VERSION = "0.53"
+
+[context.master] # master branch name - our production branch
+  command = "hugo -b $DEPLOY_PRIME_URL"
+  #command = "hugo --gc --minify"
+
+[context.branch-deploy.environment] 
+  HUGO_VERSION = "0.53"
+
+[context.branch-deploy] # all development branches: feat/fix branches ...
+  command = "hugo -b $DEPLOY_PRIME_URL"
+
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.53"
+
+[context.deploy-preview] # Github PR
+  command = "hugo -b $DEPLOY_PRIME_URL"  

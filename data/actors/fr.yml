@@ -1,0 +1,23 @@
+enable: true
+heading: Notre
+headingSpan: Environnement
+description: TODO // Description
+actorItem:
+- name: Blockchain & Société
+  image: /images/actors/meetup_logo.svg
+  moreLink: "https://blockchainsociete.org/"
+- name: ARK.io
+  image: /images/partners/ark.svg
+  moreLink: "https://ark.io/"
+- name: Ethereum
+  image: /images/actors/eth.png
+  moreLink: "https://www.ethereum.org/"
+- name: The Non-Fungible Token Alliance
+  image: /images/actors/NTFA.svg
+  moreLink: "https://nonfungiblealliance.org/"
+- name: NonFungible.com
+  image: /images/actors/NFC.svg
+  moreLink: "https://nonfungible.com/"
+# - name: EthDroid
+#   image: /images/actors/bs44.svg
+#   moreLink: "https://github.com/ethmobile/ethdroid/"

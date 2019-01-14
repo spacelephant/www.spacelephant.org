@@ -1,0 +1,25 @@
+enable : true
+menuItem :
+- name : "Products"
+  url : "products"
+
+- name : "Mission"
+  url : "mission"
+
+- name : "Goals"
+  url : "goals"
+
+- name : "Team"
+  url : "our-team"
+
+# - name : "Advisors"
+#   url : "our-advisors"
+
+- name : "Carreer"
+  url : "join-us"
+
+- name : "Partners"
+  url : "partners"
+
+# - name : "Actors"
+#   url : "actors"

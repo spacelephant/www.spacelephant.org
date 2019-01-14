@@ -1,0 +1,13 @@
+enable : true
+heading : Our
+headingSpan : Mission
+summary : User-centered solutions for the blockchain community
+# bgImage : "images/backgrounds/world_2.jpg"
+leftItem :
+  - content : "We expect many aspects of society to be soon upgraded: governance systems, financial, educational and economical powers. Monopolies in place, processes and norms are quickly becoming obsolete, since the global crisis of confidence and financial turmoil of 2008. Only a tiny fraction of the many benefits of such a paradigm shift can already be imagined..."
+  - content : "We believe that blockchain provides a solid foundation for deeper trust, transparency, collaboration and allows a fairer distribution of values, among individuals, organisations and worlwide societies."
+rightItem : 
+    - content : "But blockchains are still technically complex ecosystems at the dawn of their development."
+    - content : "Everything has to be done. Frustrated by the needless complexity of current ways of doing the simplest transactions, we are commited to co-create better solutions."
+    - content : "Space Elephant designs and develops radically secure, inclusive, simple and powerful solutions to serve the evolution of blockchain economy and the general public."
+      style : bold

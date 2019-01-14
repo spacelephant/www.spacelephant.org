@@ -1,0 +1,52 @@
+{{ with ( index $.Site.Data.partners $.Site.Language.Lang)}}
+    {{ if .enable }}
+    {{"<!-- Start Partners Section -->" | safeHTML}}
+    <section id="partners" class="section">
+        <div class="container">
+            <div class="row">
+
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center wow fadeInLeft" data-wow-duration="500ms">
+                    <h2>{{ .heading}} <span class="color">{{ .headingSpan}}</span> </h2>
+                    <div class="border"></div>
+                </div>
+                {{"<!-- /section title -->" | safeHTML}}
+
+
+                {{ if .description}}
+                <h3 class="description">
+                    {{ .description }}    
+                </h3>
+                {{ end }}
+
+                <div class=" logos wow fadeIn" data-wow-duration="3000ms">
+                    {{ range .partnerItem }}
+                    <div class="col-xs-4 col-sm-3 col-md-2 text-center" >
+                        <a class="more" href="{{ .moreLink }}" target="_blank">
+                            <img class="img-responsive" src="{{ .image }}" />
+                        </a>
+                    </div>
+                    {{ end }}
+                </div>
+
+                <div class=" details">
+                    {{ range .partnerItem }}
+                        <div class="partner col-12 col-sm-6 col-lg-4 wow fadeIn" data-wow-duration="4000ms">
+                            <div class="description ">
+                                <h4>{{ .name }}</h4>
+                                <p>
+                                    {{ .description }}
+                                </p>
+                                {{ with .moreLink }}
+                                    <a class="more" href="{{ . }}" target="_blank">More...</a>
+                                {{ end }}
+                            </div>
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </section>
+    {{"<!-- /Partners Section -->" | safeHTML}}
+    {{ end }}
+{{ end }}

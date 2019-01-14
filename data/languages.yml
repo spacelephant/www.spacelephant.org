@@ -1,0 +1,8 @@
+en:
+  dropdownTitle: "Language"
+  language: "English"
+  path: ""
+fr:
+  dropdownTitle: "Langue"
+  language: "Français"
+  path: "/fr"

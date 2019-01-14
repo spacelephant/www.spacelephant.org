@@ -1,0 +1,91 @@
+baseURL = "http://www.spacelephant.org/"
+languageCode = "en-us"
+title = "Solutions for a decentralized economy | Space Elephant"
+theme = "meghna"
+
+DefaultContentLanguage = "en"
+
+[languages]
+    [languages.en]
+        weight = 1
+    
+    [languages.fr]
+        weight = 2
+        [languages.fr.params]
+            home = "Home_FR"
+            [languages.fr.params.banner]
+                enable = true
+                heading = "Space Elephant"
+                bgImage = "images/slider/wallpaper_SE.jpg"
+                content= "Solutions pour l'économie décentralisée"
+                btn = true
+                btnText="..."
+                btnURL="#products"
+
+# Site params
+[params]
+author= "Space Elephant"
+description= "Space Elephant, solutions for decentralized economy"
+keywords= "blockchain, decentralization, economy, space elephant, spacelephant"
+    
+home= "Home"
+logo = "images/logo.png"
+# gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"
+
+# Google Analytics ID
+gaid= "UA-115765369-1"
+
+# Stylesheets
+custom_css = ["css/custom.css", "css/custom_se.css", "css/media-queries.css"]
+
+# Custom scripts
+custom_scripts = ["js/custom_se.js"]
+
+    # Meta og
+    [params.og]
+    title= "Solutions for a decentralized economy | Space Elephant"
+    description= "Space Elephant, solutions for decentralized economy."
+    url= "https://www.spacelephant.org/"
+    site_name= "Space Elephant"
+    image= "images/spacelephant-opengraph.jpg"
+    image_secrure_url="images/homepage-screenshot.jpg"
+
+    # Meta Twitter
+    [params.twitter]
+    description= "Space Elephant, solutions for decentralized economy."
+    title= "Solutions for a decentralized economy | Space Elephant"
+    image= "images/homepage-screenshot.jpg"
+    
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "images/slider/wallpaper_SE.jpg"
+    # icon = "tf-ion-play"
+    heading = "Space Elephant"
+    content= "Solutions for an emerging decentralized economy"
+    btn = true
+    btnText="Explore Us"
+    btnURL="#products"
+    
+    # footer
+    [params.footer]
+        copyright = "All trademarks and copyrights belong to their respective owners. Incorporated # 839193422 RCS Nantes, France"
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-twitter"
+        url = "https://twitter.com/spacelephant01"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-ios-book"
+        url = "https://medium.com/unik-name"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-linkedin"
+        url = "https://www.linkedin.com/company/spacelephant/"
+        
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-github"
+        url = "https://github.com/spacelephant"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-ios-flask"
+        url = "https://github.com/spacelephantlabs"

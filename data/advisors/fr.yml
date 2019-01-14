@@ -1,0 +1,11 @@
+enable : true
+heading : Nos
+headingSpan : Conseillers
+advisor :
+  - image : /images/team/mathieu.jpg
+    name : Mathieu Dufour
+    designation : CFO / Co-Founder
+    description : 28 years of experience in managing M&A of a multitude of companies and of diverse industries as forged Mathieu in supporting change. Mathieu wants to contribute to move from the old world to a new one.
+    socialIcon :
+      - icon : tf-ion-social-linkedin
+        url : "https://www.linkedin.com/in/mathieu-dufour-96307a10b"

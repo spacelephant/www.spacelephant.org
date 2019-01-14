@@ -1,0 +1,18 @@
+enable : true
+heading : Get In
+headingSpan : Touch
+# title : Contact Details
+# content : 
+# enable_maps : false
+# mapLatitude : 51.5223477
+# mapLongitude: -0.1622023
+contactDetails :
+    
+  - icon : tf-ion-ios-telephone-outline
+    info : "Phone: +33 (0)7 82 79 96 61"
+    href : "tel:+33782799661"
+    
+  - icon : tf-ion-ios-email-outline
+    info : "Email: contact@spacelephant.org"
+    href : "mailto:contact@spacelephant.org"
+    

@@ -1,0 +1,36 @@
+{{ with ( index $.Site.Data.products $.Site.Language.Lang)}}
+    {{ if .enable}}
+    {{"<!-- Start Products Section -->" | safeHTML}}
+    <section class="bg-one about section" id="products">
+        <div class="container">
+            <div class="row">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center wow fadeInLeft" data-wow-duration="500ms">
+                    <h2>{{ .heading}} <span class="color">{{ .headingSpan}}</span> </h2>
+                    <div class="border"></div>
+                </div>
+                {{"<!-- /section title -->" | safeHTML}}
+
+                <div class="products">
+                    {{ range .productItem }}
+                    {{"<!-- About item -->" | safeHTML}}
+                    <div class="col-md-4 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms">
+                        <div class="block product">
+                            <div class="icon-box">
+                                {{with .icon}}<img src="{{ . }}" />{{ end }}
+                            </div>
+                            {{"<!-- Express About Yourself -->" | safeHTML}}
+                            <div class="content text-center">
+                                {{ with .title }}<h3 class="ddd">{{ . }}</h3>{{ end }}
+                                {{ with .content}}  <p>{{ . }}</p>{{ end }}
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </section>
+    {{"<!-- /Products -->" | safeHTML}}
+    {{ end }}
+{{ end }}

@@ -1,0 +1,11 @@
+enable : true
+heading : Nos
+headingSpan : Produits
+productItem : 
+- icon : /images/products/unik-name.png
+  title : "@unik-name"
+  content : Protocole de nommage universel adossé à des identifiants digitaux sécurisés. Simplicité et Confidentialité de vos données partagées.
+
+- icon : /images/products/sonarplanet.png
+  title : Sonar Planet
+  content : "Écouter des événements liés à une adresse publique : nouvelle transaction, confirmation, balances sur toutes les blockchains."

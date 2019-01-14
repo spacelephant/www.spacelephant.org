@@ -1,0 +1,14 @@
+enable : true
+contactEmail : jobs@spacelephant.org
+image : /images/join/team.jpg
+heading : Join
+headingSpan : Us
+subHeading : We are waiting for you
+description : "Email us a quick link to your LinkedIn or Github profile with a few words on why you think you are a good fit highlithing any of the above items to:"
+jobItem : 
+  - name : Fullstack developper
+  - name : Blockchain developper
+  - name : Growthhacker
+  - name : Dev ops
+  - name : Security & audit
+  - name : or any awesome talents ;-)

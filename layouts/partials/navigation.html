@@ -1,0 +1,68 @@
+<!-- Get navigation traductions -->
+{{ with ( index $.Site.Data.navigation $.Site.Language.Lang)}}
+    {{ if .enable}}
+        {{ $languagePath := (cond (eq ($.Site.Language.Lang) "en") "" (printf "/%s" $.Site.Language.Lang)) }}
+        {{"<!-- Fixed Navigation -->" | safeHTML}}
+        <header id="navigation" class="navbar navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    {{"<!-- responsive nav button -->" | safeHTML}}
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    {{"<!-- /responsive nav button -->" | safeHTML}}
+
+                    {{"<!-- logo -->" | safeHTML}}
+                    <a class="navbar-brand logo" href="{{ $.Site.BaseURL | absURL }}{{ $languagePath }}">
+                        <img src="{{ $.Site.Params.logo | absURL }}" alt="Logo" />
+                    </a>
+                    {{"<!-- /logo -->" | safeHTML}}
+                </div>
+
+                {{"<!-- main nav -->" | safeHTML}}
+                {{ if .IsHome }}        
+                <nav class="collapse navbar-collapse navbar-right" role="Navigation">
+                            <ul id="nav" class="nav navbar-nav navigation-menu">
+                                <li><a data-scroll href="#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
+                                {{ range .menuItem }}
+                                <li><a data-scroll href="#{{ .url }}">{{ .name }}</a></li>
+                                {{ end }}
+                            </ul>
+                        </nav>
+                {{ else }}
+                
+                <nav class="collapse navbar-collapse navbar-right" role="Navigation">
+                            <ul id="nav" class="nav navbar-nav navigation-menu">
+                                <!-- <li><a data-scroll href="#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li> -->
+                                {{ range .menuItem }}
+                                <li><a data-scroll href="#{{ .url }}">{{ .name }}</a></li>
+                                {{ end }}
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ (index $.Site.Data.languages $.Site.Language.Lang).dropdownTitle }}<span class="caret"></span></a>
+                                    <ul id="languagesMenu" class="dropdown-menu animated flipInX">
+                                        {{ range $index, $element := $.Site.Data.languages  }}
+                                        <li>
+                                            {{ if eq $index $.Site.Language.Lang }}
+                                                <span class="linkLike">
+                                                    {{ $element.language }}
+                                                </span>
+                                            {{ else }}
+                                                <a href="{{ $.Site.BaseURL | absURL }}{{ .path }}">{{ $element.language }}</a>
+                                            {{ end }}
+                                        </li>
+                                        {{ end }}
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                {{ end }}
+                {{"<!-- /main nav -->" | safeHTML}}
+
+            </div>
+        </header>
+        {{"<!-- End Fixed Navigation -->" | safeHTML}}
+    {{ end }}
+{{ end }}

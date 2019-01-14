@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{- partial "head.html" . -}}
+
+{{"<!-- body start -->" | safeHTML}}
+
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div id="content">
+            {{ partial "header.html" . }}
+            {{ with ( index $.Site.Data._404 $.Site.Language.Lang)}}
+                
+                {{"<!-- Welcome Slider-->" | safeHTML}}
+                <section class="hero-area _404" style='background-image: url("{{ $.Site.Params.banner.bgImage | absURL }}");'>
+                    <div class="block">
+                        <h1>
+                            {{ .heading }}
+                            <span>
+                                -
+                            </span>
+                            <span class="color">{{ .headingSpan}}</span>
+                        </h1>
+                        {{with .content}} <p>{{ . }}</p> {{ end }}
+                        {{ if .btn}}
+
+                {{ $languagePath := (cond (eq ($.Site.Language.Lang) "en") "" (printf "/%s" $.Site.Language.Lang) ) }}
+                            <a data-scroll href="{{ $.Site.BaseURL }}{{ $languagePath }}" class="btn btn-transparent">{{ .btnText}}</a>
+                        {{ end }}
+                    </div>
+                </section>
+                {{"<!-- /Welcome Slider-->" | safeHTML}}
+            {{end}}
+    </div>
+   
+</body>
+
+</html>

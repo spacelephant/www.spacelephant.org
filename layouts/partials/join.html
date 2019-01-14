@@ -1,0 +1,43 @@
+{{ with ( index $.Site.Data.join $.Site.Language.Lang) }}
+    {{ if .enable }}
+        {{"<!-- join -->" | safeHTML}}
+        <!-- Add padding-md-0 class for full height image -->
+        <section id="join-us" class="section padding-lg-0 bg-dark">
+            <div class="container-fluid">
+                <div class="row join-row">
+                    <div class="hidden-xs hidden-sm hidden-md col-lg-6 padding-0 wide-image">
+                        <img src="{{ .image | absURL}}" alt="image" class="wow bounceIn img-responsive">
+                    </div>
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-0 content">
+                        {{"<!-- section title -->" | safeHTML}}
+                        <div class="title text-center wow fadeInRight" data-wow-duration="500ms">
+                            <h2>{{ .heading}} <span class="color">{{ .headingSpan}}</span> </h2>
+                            <div class="border"></div>
+                            <h3>{{ .subHeading }}</h3>
+                        </div>
+                        {{"<!-- /section title -->" | safeHTML}}
+                        <div class="content-block wow fadeIn" data-wow-duration="3000ms">
+                            {{ with .description}}
+                            <p>
+                                {{ .}}
+                            </p>
+                            {{ end }}
+                            {{ with .contactEmail }}<a href="mailto:{{ . }}">{{ . }}</a>{{ end }}
+                            {{ if .jobItem }}
+                                <ul class="jobs">
+                                    {{ range .jobItem }}
+                                    <li>
+                                        {{ .name }}
+                                    </li>
+                                    {{ end }}
+                                </ul>
+                            {{ end }}
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        {{"<!-- join -->" | safeHTML}}
+    {{ end }}
+{{ end }}

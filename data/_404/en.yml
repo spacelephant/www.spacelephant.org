@@ -1,0 +1,5 @@
+heading : "404"
+headingSpan : "Lost in space?"
+content : "The page you are looking for can't be found."
+btn :  true
+btnText : "Go back Home"

@@ -1,0 +1,15 @@
+enable : true
+heading : Our
+headingSpan : Goals
+summary : You are guaranteed systems with remarkable properties.
+bgImage : "images/backgrounds/world_2.jpg"
+goalItem :
+- title: "For Everyone"
+  iconPath : /images/works/for-everyone.svg
+  summary : "We make blockchain services available and easily accessible to everyone in the world."
+- title: "Great UX"
+  iconPath : /images/works/great-ux.svg
+  summary : "We emphasize the gifts and virtues of technologies, rather than technologies themselves."
+- title: "Secure"
+  iconPath : /images/works/secure.svg
+  summary : "We give security the utmost importance, both from a technical and a functional standpoint."

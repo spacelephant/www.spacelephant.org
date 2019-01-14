@@ -1,0 +1,63 @@
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
+    <meta name="author" content="{{ $.Site.Params.author }}">
+
+    {{ with $.Site.Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
+    {{ with $.Site.LanguageCode }}<meta property="og:locale" content="{{ . }}" />{{ end}}
+    <meta property="og:type" content="website" />
+    {{ with $.Site.Params.og.title }}<meta property="og:title" content="{{ . }}" />{{ end }}
+    {{ with $.Site.Params.og.description }}<meta property="og:description" content="{{ . }}" />{{ end }}
+    {{ with $.Site.Params.og.url }}<meta property="og:url" content="{{ . }}" />{{ end }}
+    {{ with $.Site.Params.og.site_name }}<meta property="og:site_name" content="{{ . }}" />{{ end }}
+    {{ with $.Site.Params.og.image }}<meta property="og:image" content="{{ $.Site.BaseURL}}{{ . }}" />{{ end }}
+    {{ with $.Site.Params.og.image_secure_url }}<meta property="og:image:secure_url" content="{{ . }}" />{{ end }}
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    {{ with $.Site.Params.og.description }}<meta name="twitter:description" content="{{ . }}" />{{ end }}
+    {{ with $.Site.Params.og.title }}<meta name="twitter:title" content="{{ . }}" />{{ end }}
+    {{ with $.Site.Params.og.image }}<meta name="twitter:image" content="{{ . }}" />{{ end }}
+    
+    <script type='application/ld+json'>{"@context": "https:\/\/schema.org","@type": "WebSite","@id": "#website","url": "https:\/\/www.spacelephant.org\/","name": "Space Elephant"}</script>
+    <script type='application/ld+json'>{"@context": "https:\/\/schema.org","@type": "Organization","url": "https:\/\/www.spacelephant.org\/","sameAs": ["https:\/\/www.linkedin.com\/company\/spacelephant"],"@id": "#organization","name": "Space Elephant","logo": "https:\/\/www.spacelephant.org\/images\/logo_header.png"}</script>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> {{ .Title }} </title>
+    
+    {{"<!-- Favicon -->" |safeHTML}}
+    <link rel="shortcut icon" type="image/x-icon" href="{{ "images/favicon.ico" | absURL }}"/>
+    
+    {{"<!-- CSS -->"|safeHTML}}
+    {{"<!-- Fontawesome Icon font -->"|safeHTML}}
+    <link rel="stylesheet" href="{{"plugins/themefisher-font/style.css" | absURL}}">
+    {{"<!-- bootstrap.min css -->"|safeHTML}}
+    <link rel="stylesheet" href="{{"plugins/bootstrap/dist/css/bootstrap.min.css"|absURL}}">
+    {{"<!-- Animate.css -->"|safeHTML}}
+    <link rel="stylesheet" href="{{"plugins/animate-css/animate.css"|absURL}}">
+    {{"<!-- Magnific popup css -->"|safeHTML}}
+    <link rel="stylesheet" href="{{"plugins/magnific-popup/dist/magnific-popup.css"|absURL}}">
+    {{"<!-- Slick Carousel -->"|safeHTML}}
+    <link rel="stylesheet" href="{{"plugins/slick-carousel/slick/slick.css"|absURL}}">
+    <link rel="stylesheet" href="{{"plugins/slick-carousel/slick/slick-theme.css"|absURL}}">
+    {{"<!-- Main Stylesheet -->"|safeHTML}}
+    <link rel="stylesheet" href="{{"css/style.css"|absURL}}">
+    {{ "<!-- Custom CSS -->" | safeHTML }}
+    {{ range .Site.Params.custom_css }}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+    {{ end }}
+
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net" /> <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+
+    {{ with $.Site.Params.gaid}}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', "{{ . }}");
+    </script>
+    {{ end }}
+</head>

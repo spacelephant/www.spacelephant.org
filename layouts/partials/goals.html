@@ -1,0 +1,39 @@
+{{ with ( index $.Site.Data.goals $.Site.Language.Lang)}}
+    {{ if .enable }}
+    {{"<!-- Start Goals Section -->" | safeHTML}}
+    <section id="goals" class="parallax-section bg-1 section overly" style='background-image: url("{{ .bgImage | absURL }}")'>
+        <div class="container">
+            <div class="row">
+
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center wow fadeInLeft" data-wow-duration="500ms">
+                    <h2>{{ .heading}} <span class="color">{{ .headingSpan}}</span> </h2>
+                    <div class="border"></div>
+                </div>
+                {{"<!-- /section title -->" | safeHTML}}
+
+                {{ if .summary}}
+                    <h3 class="summary">
+                        {{ .summary }}    
+                    </h3>
+                {{ end }}
+
+                <div class="goals">
+                    {{ range .goalItem }}
+                    <div class="col-12 col-sm-4 text-center goal wow fadeInUp" data-wow-duration="500ms">
+                        <div class="counters-item">
+                            {{with .iconPath}}<img src="{{ . }}" />{{ end }}
+                            <h3>{{ .title }}</h3>
+                            <p>
+                                {{ .summary }}
+                            </p>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </section>
+    {{"<!-- /Goals Section -->" | safeHTML}}
+    {{ end }}
+{{ end }}

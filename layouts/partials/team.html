@@ -1,0 +1,60 @@
+{{ with ( index $.Site.Data.team $.Site.Language.Lang)}}
+
+    {{ if .enable}}
+    {{"<!-- Start Team -->" | safeHTML}}
+    <section id="our-team" class="section">
+        <div class="container">
+            <div class="row">
+
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center wow fadeInRight" data-wow-duration="500ms">
+                    <h2>{{ .heading }} <span class="color">{{ .headingSpan }}</span></h2>
+                    <div class="border"></div>
+                </div>
+                {{"<!-- /section title -->" | safeHTML}}
+
+                {{ if .descriptionItem }}
+                <div class="descriptions">
+                    {{ range .descriptionItem }}
+                    <p class="description text-center">
+                        {{ .content }}    
+                    </p>
+                    {{ end }}
+                </div>
+                {{ end }}
+
+                <div class="teamMembers">
+                    {{ range .teamMember}}
+                    {{"<!-- team member -->" | safeHTML}}
+                    <div class="col-md-3 col-sm-6 col-xs-12  wow fadeInDown team-member-container" data-wow-duration="500ms">
+                        <div class="team-member">
+                            <div class="member-photo">
+                                {{"<!-- member photo -->" | safeHTML}}
+                                <img class="img-responsive" src="{{ .image }}" alt="Meghna">
+
+                                {{"<!-- member social profile -->" | safeHTML}}
+                                <div class="mask">
+                                    <ul class="list-inline">
+                                        {{ range .socialIcon }}
+                                        <li><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
+                                        {{ end }}
+                                    </ul>
+                                </div>
+                            </div>
+
+                            {{"<!-- member name & designation -->" | safeHTML}}
+                            <div class="member-meta">
+                                <h4>{{ .name }}</h4>
+                                <span>{{ .designation }}</span>
+                                <p>{{ .description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {{"<!-- end team member -->" | safeHTML}}
+                    {{ end }}
+            </div>
+        </div>
+    </section>
+    {{"<!-- /team -->" | safeHTML}}
+    {{ end }}
+{{ end }}

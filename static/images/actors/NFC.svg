@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 354.33071 354.33071"
+   id="svg3389"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="NFC_2.svg">
+  <defs
+     id="defs3391" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="375"
+     inkscape:cy="520"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2495"
+     inkscape:window-height="1416"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3394">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-698.0315)">
+    <path
+       inkscape:export-ydpi="85.393723"
+       inkscape:export-xdpi="85.393723"
+       inkscape:export-filename="/home/dan/Projects/Software/NonFungible.com/nonfungible_react/src/img/logo.png"
+       id="path2096"
+       d="m 212.31751,848.3987 0,196.6041 a 202.52018,202.47383 0 0 0 120.37388,-43.3897 202.70789,202.70789 0 0 0 1.065,-0.8668 202.52018,202.47383 0 0 0 14.08619,-12.36812 202.70789,202.70789 0 0 0 0.77737,-0.74241 202.52018,202.47383 0 0 0 0.80848,-0.86677 c -12.21957,-12.24013 -23.71057,-23.72612 -36.89071,-36.71192 -0.10806,0 0.30874,2.15472 0.9212,4.79256 2.72367,11.7287 0.78569,12.19372 -13.84131,3.30776 l -11.5558,-7.01976 -11.17875,7.21024 c -15.74007,10.15413 -16.63036,9.34441 -12.08831,-11.04661 l 2.6081,-11.68796 -6.75933,-6.01307 c -3.71769,-3.30488 -8.44247,-7.44342 -10.49468,-9.20032 -2.41077,-2.06377 -3.45042,-3.91932 -2.94238,-5.24346 0.80716,-2.10335 2.9255,-2.6197 17.89536,-4.37276 l 8.66004,-1.0145 c -20.48124,-20.45692 -40.96312,-40.9136 -61.44435,-61.3705 z"
+       style="opacity:1;fill:#24ae5f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:18.20534897;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       inkscape:connector-curvature="0" />
+    <g
+       inkscape:export-filename="/home/dan/Projects/Software/NonFungible.com/nonfungible_react/src/img/logo.png"
+       transform="matrix(6.6306174,0,0,6.6306174,21.271809,656.97616)"
+       style="fill:#132349;fill-opacity:1"
+       id="g2356-0"
+       inkscape:export-xdpi="85.393723"
+       inkscape:export-ydpi="85.393723">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2350-5"
+         d="m 38.078444,38.125429 -1.306337,0.152872 c -2.257687,0.26439 -2.576782,0.342488 -2.698514,0.659708 -0.07662,0.199699 0.08032,0.479254 0.443895,0.790506 0.30951,0.264959 1.021964,0.889656 1.582648,1.388088 l 1.019398,0.906586 -0.393208,1.762495 c -0.685005,3.075282 -0.550864,3.197432 1.822989,1.666032 l 1.685648,-1.087254 1.742878,1.058642 c 2.20598,1.340139 2.498622,1.270203 2.087852,-0.498667 -0.09238,-0.397829 -0.15527,-0.722654 -0.138972,-0.722654 z"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.19288927" />
+      <path
+         style="fill:#24ae5f;fill-opacity:1;stroke-width:0.21534187"
+         d="m 40.982412,41.16974 -2.904338,-3.043104 0.857091,-2.029973 c 0.471396,-1.116486 0.929816,-2.101319 1.018725,-2.188507 0.324292,-0.318055 0.666935,0.193166 1.478039,2.205173 l 0.827988,2.053872 1.056614,0.152896 c 0.581136,0.08409 1.553384,0.166226 2.160552,0.182484 0.732031,0.01955 1.199372,0.146868 1.387184,0.377689 0.247203,0.303811 0.05612,0.55551 -1.50104,1.977454 l -1.784293,1.629321 0.195903,0.85727 c 0.107741,0.47148 0.176997,0.859786 0.153905,0.86289 -0.02316,0.004 -1.34895,-1.363757 -2.94633,-3.037465 z"
+         id="path2354-4"
+         inkscape:connector-curvature="0"
+         inkscape:transform-center-x="-4.4355289"
+         inkscape:transform-center-y="0.88787647" />
+    </g>
+    <path
+       inkscape:export-ydpi="85.393723"
+       inkscape:export-xdpi="85.393723"
+       inkscape:export-filename="/home/dan/Projects/Software/NonFungible.com/nonfungible_react/src/img/logo.png"
+       id="circle2084"
+       d="M 63.829554,699.93409 A 202.52018,202.47383 0 0 0 4.942796,837.98954 c 49.329976,0.008 144.845264,0.0215 196.856704,0.031 -12.62647,-12.53853 -25.25149,-25.07909 -37.87798,-37.61758 l -79.969402,0.34984 c -0.117217,-27.08202 -0.232544,-54.1661 -0.34982,-81.2482 -6.591413,-6.52363 -13.181372,-13.04704 -19.772744,-19.57061 z"
+       style="opacity:1;fill:#f0c514;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:18.20534897;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="85.393723"
+       inkscape:export-xdpi="85.393723"
+       inkscape:export-filename="/home/dan/Projects/Software/NonFungible.com/nonfungible_react/src/img/logo.png"
+       id="path5238"
+       d="M 4.8572814,846.93721 A 202.52018,202.47383 0 0 0 205.05674,1045.0727 l 0,-198.13549 z"
+       style="opacity:1;fill:#e84c3d;fill-opacity:0.99141636;fill-rule:nonzero;stroke:none;stroke-width:18.27282715;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="85.393723"
+       inkscape:export-xdpi="85.393723"
+       inkscape:export-filename="/home/dan/Projects/Software/NonFungible.com/nonfungible_react/src/img/logo.png"
+       inkscape:connector-curvature="0"
+       id="path2348-1"
+       d="m 83.292558,718.83863 80.318942,80.90006 -79.967151,0.3463 z"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.64266855"
+       sodipodi:nodetypes="cccc" />
+    <g
+       inkscape:export-filename="/home/dan/Projects/Software/NonFungible.com/nonfungible_react/src/img/logo.png"
+       transform="matrix(6.6306174,0,0,6.6306174,21.271809,656.97616)"
+       style="fill:#f0c514;fill-opacity:1"
+       id="g2362-2"
+       inkscape:export-xdpi="85.393723"
+       inkscape:export-ydpi="85.393723">
+      <path
+         style="fill:#f0c514;fill-opacity:1;stroke:none;stroke-width:0.19571699"
+         d="m 9.3536885,9.329819 c 4.0710445,0.0167 8.1420885,0.0336 12.2131335,0.0502 -0.05869,4.04772 0.03714,8.1086 -0.09978,12.15074 -4.253865,-4.23073 -7.410344,-7.4444 -12.1133535,-12.20099 z"
+         id="path2360-0"
+         inkscape:connector-curvature="0"
+         inkscape:transform-center-x="-6.1040659"
+         inkscape:transform-center-y="6.100817" />
+    </g>
+    <path
+       inkscape:export-filename="/home/dan/Projects/Software/NonFungible.com/nonfungible_react/src/img/logo.png"
+       style="fill:#ffffff;stroke-width:1.5716902"
+       inkscape:connector-curvature="0"
+       d="m 98.966603,962.77133 c -1.266759,0 -2.624219,-0.98526 -3.015214,-2.19259 L 80.443829,912.8544 c -0.391015,-1.20732 0.128162,-2.80248 1.154139,-3.55005 l 40.599142,-29.49848 c 1.02563,-0.74444 2.70231,-0.74444 3.72823,0 l 40.60237,29.49848 c 1.02568,0.74444 1.54526,2.34273 1.15066,3.55005 l -15.51043,47.72434 c -0.39111,1.20733 -1.75168,2.19259 -3.01868,2.19259 z"
+       id="path2376-3"
+       inkscape:export-xdpi="85.393723"
+       inkscape:export-ydpi="85.393723" />
+    <g
+       inkscape:export-ydpi="85.393723"
+       inkscape:export-xdpi="85.393723"
+       inkscape:export-filename="/home/dan/Projects/Software/NonFungible.com/nonfungible_react/src/img/logo.png"
+       id="g929"
+       transform="matrix(2.7752546,0,0,2.7752546,-2161.4995,1519.744)">
+      <g
+         id="g921">
+        <g
+           inkscape:export-filename="/home/dan/Projects/Software/NonFungible.com/nonfungible_react/src/img/side-bar-home.png"
+           transform="matrix(7.2325776,0,0,7.2325776,1376.7726,357.84006)"
+           id="g919"
+           inkscape:export-xdpi="644.77747"
+           inkscape:export-ydpi="644.77747">
+          <g
+             inkscape:export-ydpi="644.77747"
+             inkscape:export-xdpi="644.77747"
+             inkscape:export-filename="/home/dan/Projects/Software/NonFungible.com/nonfungible_react/src/img/side-bar-home.png"
+             inkscape:transform-center-y="-1.4322986"
+             id="g917"
+             transform="matrix(0.7415921,0,0,0.7415921,-5.4137867,-17.671398)">
+            <path
+               id="path915"
+               transform="matrix(0.13369464,0,0,0.13369464,-140.37622,-122.19735)"
+               d="m 415.78516,199.93359 a 14.651782,14.761124 0 0 0 -14.65235,14.75977 14.651782,14.761124 0 0 0 14.65235,14.76172 14.651782,14.761124 0 0 0 14.65039,-14.76172 14.651782,14.761124 0 0 0 -14.65039,-14.75977 z m 0,4.95313 a 9.735026,9.807677 0 0 1 9.73437,9.80664 9.735026,9.807677 0 0 1 -9.73437,9.80859 9.735026,9.807677 0 0 1 -9.73633,-9.80859 9.735026,9.807677 0 0 1 9.73633,-9.80664 z"
+               style="opacity:1;fill:#066ea6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.38717055;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+               inkscape:connector-curvature="0" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="g927">
+        <path
+           style="opacity:1;fill:#066ea6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.86462355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           d="m 207.49219,48.496094 0,8.443359 8.58593,0 0,-8.443359 z m 1.93554,1.902344 4.7168,0 0,4.638671 -4.7168,0 z"
+           transform="matrix(0.71708758,0,0,0.71708758,742.84118,-323.24867)"
+           id="rect923"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+  </g>
+</svg>

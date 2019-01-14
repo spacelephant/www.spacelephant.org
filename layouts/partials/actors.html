@@ -1,0 +1,38 @@
+{{ with ( index $.Site.Data.actors $.Site.Language.Lang)}}
+    {{ if .enable }}
+    {{"<!-- Start Actors Section -->" | safeHTML}}
+    <section id="actors" class="section bg-dark">
+        <div class="container">
+            <div class="row">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center wow fadeInRight" data-wow-duration="500ms">
+                    <h2>{{ .heading}} <span class="color">{{ .headingSpan}}</span> </h2>
+                    <div class="border"></div>
+                </div>
+                {{"<!-- /section title -->" | safeHTML}}
+
+                {{ if .description}}
+                <h3 class="description">
+                    {{ .description }}    
+                </h3>
+                {{ end }}
+
+                <div class="row logos wow fadeIn" data-wow-duration="3000ms">
+                    {{ range .actorItem }}
+                    <div class="col-xs-4 col-sm-3 col-md-2 text-center actor wow fadeIn" data-wow-duration="500ms">
+                        <div class="counters-item">
+                            <a class="more" href="{{ .moreLink }}" target="_blank">
+                                    <img src="{{ .image }}" />
+                                {{with .iconPath}}<img src="{{ . }}" />{{ end }}
+                                <h3>{{ .name }}</h3>
+                            </a>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </section>
+    {{"<!-- /Actors Section -->" | safeHTML}}
+    {{ end }}
+{{ end }}
