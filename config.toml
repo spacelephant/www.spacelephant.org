@@ -36,7 +36,7 @@ logo = "images/logo.png"
 gaid= "UA-115765369-1"
 
 # Stylesheets
-custom_css = ["css/custom.css", "css/custom_se.css", "css/media-queries.css"]
+custom_css = ["css/custom_se.css", "css/media-queries.css"]
 
 # Custom scripts
 custom_scripts = ["js/custom_se.js"]
