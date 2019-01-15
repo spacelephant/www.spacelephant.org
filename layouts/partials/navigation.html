@@ -17,7 +17,8 @@
 
                     {{"<!-- logo -->" | safeHTML}}
                     <a class="navbar-brand logo" href="{{ $.Site.BaseURL | absURL }}{{ $languagePath }}">
-                        <img src="{{ $.Site.Params.logo | absURL }}" alt="Logo" />
+                        <img class="logo-only" src="{{ $.Site.Params.banner.logoonly | absURL }}" alt="Logo only" />
+                        <img class="logo-title" src="{{ $.Site.Params.banner.logotitle | absURL }}" alt="Logo title" />
                     </a>
                     {{"<!-- /logo -->" | safeHTML}}
                 </div>

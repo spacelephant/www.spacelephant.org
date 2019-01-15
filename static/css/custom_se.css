@@ -142,10 +142,29 @@ a:focus, a:hover {
 */                                   
 #navigation .logo {
     margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+#navigation .logo {
+    position: relative;
 }
 
 #navigation .logo img {
     max-height: 100%;
+    position: absolute;
+}
+
+#navigation .logo .logo-only {
+    margin-left: 0.5rem;
+    opacity: 0;
+    transition: opacity 1500ms linear;
+}
+
+#navigation .logo .logo-title {
+    margin-left: 0px;
+    transition: margin-left 500ms ease-in;
+    background: #1d2024;
 }
 
 .navigation .navigation-menu li a  {

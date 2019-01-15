@@ -74,6 +74,14 @@ d88P         d88P        "Y8888P"   "Y8888P"  88888P"  888  888
 }
 
 
+#navigation .logo:hover .logo-title {
+    margin-left: 6.5rem;
+}
+
+#navigation .logo:hover .logo-only {
+    opacity: 1;
+}
+
 /*
   _____                    
  |_   _|__  __ _ _ __ ___  

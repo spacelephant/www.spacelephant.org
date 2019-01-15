@@ -16,10 +16,12 @@ DefaultContentLanguage = "en"
             [languages.fr.params.banner]
                 enable = true
                 heading = "Space Elephant"
+                logotitle = "images/title_only.png"
+                logoonly = "images/logo_only.png"
                 bgImage = "images/slider/wallpaper_SE.jpg"
                 content= "Solutions pour l'économie décentralisée"
                 btn = true
-                btnText="..."
+                btnText="En savoir plus"
                 btnURL="#products"
 
 # Site params
@@ -64,6 +66,7 @@ custom_scripts = ["js/custom_se.js"]
     # icon = "tf-ion-play"
     heading = "Space Elephant"
     logotitle = "images/title_only.png"
+    logoonly = "images/logo_only.png"
     content= "Solutions for an emerging decentralized economy"
     btn = true
     btnText="Explore Us"
