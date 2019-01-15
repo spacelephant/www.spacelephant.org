@@ -2,7 +2,7 @@
 [build]
 # This is the directory that you are publishing from (relative to root of your repo)
   publish = "public"
-  command = "hugo --gc --minify"
+  command = "hugo --gc --minify $DEPLOY_PRIME_URL"
 
 [context.master.environment]
   HUGO_VERSION = "0.53"

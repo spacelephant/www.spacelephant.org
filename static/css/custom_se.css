@@ -211,6 +211,19 @@ a:focus, a:hover {
     height: 100%;
 }
 
+.products .product .content {
+    -webkit-transform: translateZ(0px);
+    transform: translateZ(0px);
+    transition-duration: 0.3s;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+}
+
+.products .product:hover .content {
+    transform: translateY(-10px);
+}
+
 .products .product p {
     margin-bottom: 0px;
 }

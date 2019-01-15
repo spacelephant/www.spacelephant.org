@@ -18,8 +18,8 @@
                         <div class="block product">
                             <div class="icon-box">
                                 {{with .icon}}<img src="{{ . }}" />{{ end }}
+                                {{"<!-- Express About Yourself -->" | safeHTML}}
                             </div>
-                            {{"<!-- Express About Yourself -->" | safeHTML}}
                             <div class="content text-center">
                                 {{ with .title }}<h3 class="ddd">{{ . }}</h3>{{ end }}
                                 {{ with .content}}  <p>{{ . }}</p>{{ end }}
