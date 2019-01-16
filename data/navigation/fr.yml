@@ -1,13 +1,13 @@
 enable : true
 menuItem :
-- name : "Produits"
-  url : "products"
+# - name : "Produits"
+#   url : "products"
 
-- name : "Mission"
-  url : "mission"
+# - name : "Mission"
+#   url : "mission"
 
-- name : "Buts"
-  url : "goals"
+# - name : "Buts"
+#   url : "goals"
 
 - name : "Équipe"
   url : "our-team"
