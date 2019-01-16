@@ -1,7 +1,7 @@
 enable: true
 heading: We
 headingSpan: Participate to
-description: TODO // Description
+# description: TODO // Description
 actorItem:
 - name: Blockchain & Société
   image: /images/actors/meetup_logo.svg
