@@ -1,4 +1,4 @@
-baseURL = "http://www.spacelephant.org/"
+baseURL = "https://www.spacelephant.org/"
 languageCode = "en-us"
 title = "Solutions for a decentralized economy | Space Elephant"
 theme = "meghna"
