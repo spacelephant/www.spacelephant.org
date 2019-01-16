@@ -3,47 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.spacelephant.org/fr/categories/</loc>
+    <loc>https://www.spacelephant.org/fr/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.spacelephant.org/categories/"
+                href="https://www.spacelephant.org/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://www.spacelephant.org/fr/categories/"
+                href="https://www.spacelephant.org/fr/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://www.spacelephant.org/fr/</loc>
+    <loc>https://www.spacelephant.org/fr/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.spacelephant.org/"
+                href="https://www.spacelephant.org/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://www.spacelephant.org/fr/"
+                href="https://www.spacelephant.org/fr/"
                 />
   </url>
   
   <url>
-    <loc>http://www.spacelephant.org/fr/tags/</loc>
+    <loc>https://www.spacelephant.org/fr/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.spacelephant.org/tags/"
+                href="https://www.spacelephant.org/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://www.spacelephant.org/fr/tags/"
+                href="https://www.spacelephant.org/fr/tags/"
                 />
   </url>
   
