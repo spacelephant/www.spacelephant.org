@@ -1,0 +1,157 @@
+/*
+http://patorjk.com/software/taag/#p=display&f=Colossal
+http://patorjk.com/software/taag/#p=display&f=Standard
+*/
+
+/*
+Y88b         888888888 8888888888 8888888888                  
+ Y88b        888             d88P       d88P                  
+  Y88b       888            d88P       d88P                   
+   Y88b      8888888b.     d88P       d88P  88888b.  888  888 
+   d88P           "Y88b 88888888   88888888 888 "88b `Y8bd8P' 
+  d88P              888  d88P       d88P    888  888   X88K   
+ d88P        Y88b  d88P d88P       d88P     888 d88P .d8""8b. 
+d88P          "Y8888P" d88P       d88P      88888P"  888  888 
+                                            888               
+                                            888               
+                                            888              
+*/
+@media screen and (min-width: 577px) {
+
+ /*
+  ____                _            _       
+ |  _ \ _ __ ___   __| |_   _  ___| |_ ___ 
+ | |_) | '__/ _ \ / _` | | | |/ __| __/ __|
+ |  __/| | | (_) | (_| | |_| | (__| |_\__ \
+ |_|   |_|  \___/ \__,_|\__,_|\___|\__|___/
+                                                                           
+*/   
+    .products {
+        flex-direction: row;
+    }
+
+    .products .product {
+        padding: 30px 30px 0px;
+    }
+
+/*
+  _____           _            
+ |  ___|__   ___ | |_ ___ _ __ 
+ | |_ / _ \ / _ \| __/ _ \ '__|
+ |  _| (_) | (_) | ||  __/ |   
+ |_|  \___/ \___/ \__\___|_|   
+*/
+    #footer .contact-infos {
+        padding: 60px 10px 35px;
+    }
+}
+
+
+/*
+Y88b         8888888888  .d8888b.   .d8888b.                    
+ Y88b              d88P d88P  Y88b d88P  Y88b                   
+  Y88b            d88P  888        Y88b. d88P                   
+   Y88b          d88P   888d888b.   "Y88888"  88888b.  888  888 
+   d88P       88888888  888P "Y88b .d8P""Y8b. 888 "88b `Y8bd8P' 
+  d88P         d88P     888    888 888    888 888  888   X88K   
+ d88P         d88P      Y88b  d88P Y88b  d88P 888 d88P .d8""8b. 
+d88P         d88P        "Y8888P"   "Y8888P"  88888P"  888  888 
+                                              888               
+                                              888               
+                                              888               
+*/
+@media screen and (min-width: 768px) {
+#navigation #languagesMenu li .linkLike {
+    padding: 3px 20px;
+}
+
+#navigation #languagesMenu li * {
+    color: #737f8a;
+}
+
+#navigation #languagesMenu li a:hover {
+    color: #f99400;
+}
+
+
+#navigation .logo:hover .logo-title {
+    margin-left: 6.5rem;
+}
+
+#navigation .logo:hover .logo-only {
+    opacity: 1;
+}
+
+/*
+  _____                    
+ |_   _|__  __ _ _ __ ___  
+   | |/ _ \/ _` | '_ ` _ \ 
+   | |  __/ (_| | | | | | |
+   |_|\___|\__,_|_| |_| |_|
+*/
+    #our-team .teamMembers .member-photo img,
+    #our-advisors .advisorsMembers .member-photo img {
+        width: 100%;
+    }
+
+/*
+  ____            _                       
+ |  _ \ __ _ _ __| |_ _ __   ___ _ __ ___ 
+ | |_) / _` | '__| __| '_ \ / _ \ '__/ __|
+ |  __/ (_| | |  | |_| | | |  __/ |  \__ \
+ |_|   \__,_|_|   \__|_| |_|\___|_|  |___/
+*/                                              
+
+
+}
+
+/*
+Y88b          d888    .d8888b.   .d8888b.   .d8888b.                    
+ Y88b        d8888   d88P  Y88b d88P  Y88b d88P  Y88b                   
+  Y88b         888          888 888    888 888    888                   
+   Y88b        888        .d88P 888    888 888    888 88888b.  888  888 
+   d88P        888    .od888P"  888    888 888    888 888 "88b `Y8bd8P' 
+  d88P         888   d88P"      888    888 888    888 888  888   X88K   
+ d88P          888   888"       Y88b  d88P Y88b  d88P 888 d88P .d8""8b. 
+d88P         8888888 888888888   "Y8888P"   "Y8888P"  88888P"  888  888 
+                                                      888               
+                                                      888               
+                                                      888                          
+*/
+@media screen and (min-width: 1200px) {     
+/*
+   ____                                      
+  / ___|___  _ __ ___  _ __ ___   ___  _ __  
+ | |   / _ \| '_ ` _ \| '_ ` _ \ / _ \| '_ \ 
+ | |__| (_) | | | | | | | | | | | (_) | | | |
+  \____\___/|_| |_| |_|_| |_| |_|\___/|_| |_|
+*/                                             
+
+    .padding-lg-0 {
+        padding: 0 !important;
+    }
+
+/*
+      _       _       
+     | | ___ (_)_ __  
+  _  | |/ _ \| | '_ \ 
+ | |_| | (_) | | | | |
+  \___/ \___/|_|_| |_|
+*/
+    #join-us .join-row {
+        display: flex;
+    }
+
+    #join-us .wide-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #join-us .join-row .content {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
