@@ -39,4 +39,41 @@ jQuery(function ($) {
         }
       }
 
+      freezeFloatLineHeight();
+
+      resizeFloatingLineOnOrientationChange();
+
+      function getFloatLine() {
+        return $('.hero-area');
+      }
+  
+      function freezeFloatLineHeight() {
+        let floatLine = getFloatLine();
+        if (floatLine) {
+          let height = floatLine.height() || 0;
+          floatLine.css('height', height).css('min-height', height);
+        }
+      }
+  
+      function resetFloatLineHeight() {
+        let floatLine = getFloatLine();
+        if (floatLine) {
+          floatLine.css('height', 'auto').css('min-height', '100vh');
+        }
+      }
+
+      function resizeFloatingLineOnOrientationChange() {
+        $(window).on('orientationchange', (_) => {
+          resetFloatLineHeight();
+          freezeFloatLineHeight();
+        });
+  
+        // Hack for firefox mobile
+        let mqOrientation = window.matchMedia('(orientation: portrait)');
+        mqOrientation.addListener(function() {
+          resetFloatLineHeight();
+          freezeFloatLineHeight();
+        });
+      }
+
 });
