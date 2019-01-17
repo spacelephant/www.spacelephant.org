@@ -1,7 +1,7 @@
 
 #!/bin/sh
 
-PUBLISH_BRANCH="test-gh-pages"
+PUBLISH_BRANCH="gh-pages"
 
 if [[ $(git status -s) ]]
 then
