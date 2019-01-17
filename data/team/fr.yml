@@ -1,31 +1,34 @@
 enable : true
 heading : Les
 headingSpan : Fondateurs
+descriptionItem :
+- content : We are proud to contribute to the generous, disruptive, universal impact of blockchain-based services.
+- content : We support decentralizing everything and yet we use GAFA services, we are neither perfect nor cynics...
 teamMember :
   - image : /images/team/laurent.jpg
     name : Laurent Lourenço
     designation : CEO
     description : Exploring bitcoin in 2012 has convinced Laurent that blockchain technology is going to impact Society significantly. On his spare time, Laurent loves sharing barbecues with friends.
     socialIcon :
-      - icon : tf-ion-social-linkedin
+      - icon : fab fa-linkedin-in
         url : "https://www.linkedin.com/in/laurentlourenco"
-      - icon : tf-ion-social-twitter
+      - icon : fab fa-twitter
         url : "https://twitter.com/laurentlourenco"
-      - icon : tf-ion-ios-people
+      - icon : fab fa-meetup
         url : "https://www.meetup.com/fr-FR/Blockchain-Societe-Nantes/members/?op=leaders"
       
   - image : /images/team/damien.jpg
     name : Damien Lecan
-    designation : CTO & Blockchain Architect
+    designation : CTO & Blockchain Architect / Co-Founder
     description : Damien fell in love with the DLT technology in 2015, then led the charge to develop blockchain-based solutions. A desire to do more has made him become an entrepreneur. Damien is decentralized by design.
     socialIcon :
-      - icon : tf-ion-social-linkedin
+      - icon : fab fa-linkedin-in
         url : "https://www.linkedin.com/in/damienlecan"
-      - icon : tf-ion-social-twitter
+      - icon : fab fa-twitter
         url : "https://twitter.com/dlecan"
-      - icon : tf-ion-social-github
+      - icon : fab fa-github
         url : "https://github.com/dlecan"
-      - icon : tf-ion-ios-people
+      - icon : fab fa-meetup
         url : "https://www.meetup.com/fr-FR/Blockchain-Societe-Nantes/members/?op=leaders"
       
   - image : /images/team/fabien.jpg
@@ -33,11 +36,11 @@ teamMember :
     designation : Full-Stack dev
     description : Apart from having a deep interest in the technology and its applications, Fabien spent a considerable amount of time collecting data about Blockchain projects, real-world use-cases, and inter-wallet transactions.
     socialIcon :
-      - icon : tf-ion-social-linkedin
+      - icon : fab fa-linkedin-in
         url : "https://www.linkedin.com/in/fabientreguer"
-      - icon : tf-ion-social-twitter
+      - icon : fab fa-twitter
         url : "https://twitter.com/FabienTreguer"
-      - icon : tf-ion-social-github
+      - icon : fab fa-github
         url : "https://github.com/ftreguer"
 
   - image : /images/team/guillaume.jpg
@@ -45,13 +48,13 @@ teamMember :
     designation : Blockchain Expert
     description : Guillaume fell in love with the dynamic and caring community, and he decided to make open-source project vision his. Guillaume is developing Blockchain solutions democratizing the use of cryptocurrencies.
     socialIcon :
-      - icon : tf-ion-social-linkedin
+      - icon : fab fa-linkedin-in
         url : "https://www.linkedin.com/in/guillaume-nicolas-8177427b"
-      - icon : tf-ion-social-twitter
+      - icon : fab fa-twitter
         url : "https://twitter.com/GuiillaumeN"
-      - icon : tf-ion-social-github
+      - icon : fab fa-github
         url : "https://github.com/Nigui"
-      - icon : tf-ion-ios-people
+      - icon : fab fa-meetup
         url : "https://www.meetup.com/fr-FR/Blockchain-Societe-Nantes/members/?op=leaders"
     
   # - image : /images/team/teddy.jpg

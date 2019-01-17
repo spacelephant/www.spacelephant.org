@@ -39,7 +39,7 @@ logofooter = "images/logo_white.png"
 gaid= "UA-115765369-1"
 
 # Stylesheets
-custom_css = ["css/custom_se.css", "css/media-queries.css"]
+custom_css = ["css/style.css", "css/custom_se.css", "css/media-queries.css"]
 
 # Custom scripts
 custom_scripts = ["js/custom_se.js"]
@@ -76,21 +76,21 @@ custom_scripts = ["js/custom_se.js"]
     [params.footer]
         copyright = "All trademarks and copyrights belong to their respective owners. Incorporated # 839193422 RCS Nantes, France"
         [[params.footer.socialIcon]]
-        icon = "tf-ion-social-twitter"
+        icon = "fab fa-twitter"
         url = "https://twitter.com/spacelephant01"
 
         [[params.footer.socialIcon]]
-        icon = "tf-ion-ios-book"
+        icon = "fab fa-medium-m"
         url = "https://medium.com/unik-name"
 
         [[params.footer.socialIcon]]
-        icon = "tf-ion-social-linkedin"
+        icon = "fab fa-linkedin-in"
         url = "https://www.linkedin.com/company/spacelephant/"
         
         [[params.footer.socialIcon]]
-        icon = "tf-ion-social-github"
+        icon = "fab fa-github"
         url = "https://github.com/spacelephant"
 
         [[params.footer.socialIcon]]
-        icon = "tf-ion-ios-flask"
+        icon = "fas fa-flask"
         url = "https://github.com/spacelephantlabs"

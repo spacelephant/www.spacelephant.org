@@ -523,6 +523,10 @@ d88P     888  "Y8888P  "Y888 "Y88P"  888      88888P'
     max-width: 200px;
 }
 
+#footer .social-icon ul li a:not(:hover) i {
+    opacity: 0.8;
+}
+
 
 /*
     d8888   .d8888b.      d8888  
