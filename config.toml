@@ -32,7 +32,7 @@ keywords= "blockchain, decentralization, economy, space elephant, spacelephant"
     
 home= "Home"
 logo = "images/logo_header.png"
-logofooter = "images/logo.png"
+logofooter = "images/logo_white.png"
 # gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"
 
 # Google Analytics ID
@@ -70,7 +70,7 @@ custom_scripts = ["js/custom_se.js"]
     content= "Solutions for an emerging decentralized economy"
     btn = true
     btnText="Explore Us"
-    btnURL="#products"
+    btnURL="#mission"
     
     # footer
     [params.footer]

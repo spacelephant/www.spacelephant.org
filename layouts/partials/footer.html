@@ -31,7 +31,7 @@
 				<div class="copyright text-center">
 					{{ $languagePath := (cond (eq ($.Site.Language.Lang) "en") "" (printf "/%s" $.Site.Language.Lang)) }}
 					<a href="{{ .Site.BaseURL | absURL }}{{ $languagePath }}">
-						<img src="{{ .Site.Params.logofooter | absURL }}" alt="logo space elephant" /> 
+						<img class="logo-footer" src="{{ .Site.Params.logofooter | absURL }}" alt="logo space elephant" /> 
 					</a>
 					<br>
 
@@ -46,8 +46,8 @@
 						</script>. All Rights Reserved.
 					</p>
 
-					<p>
-						Design based on <a class="bold" href="https://github.com/themefisher/meghna-hugo">Meghna Template</a> by <a class="bold" href="https://github.com/themefisher">themefisher</a>
+					<p class="credits">
+						Design based on <a href="https://github.com/themefisher/meghna-hugo">Meghna Template</a> by <a href="https://github.com/themefisher">themefisher</a>
 					</p>
 				</div>
 			</div>
@@ -70,7 +70,7 @@
 {{"<!-- Portfolio Filtering -->" | safeHTML}}
 <!-- <script type="text/javascript" src="{{ "plugins/mixitup/mixitup.min.js" | absURL}}"></script> -->
 {{"<!-- Smooth Scroll -->" | safeHTML}}
-<script type="text/javascript" src="{{ "plugins/smooth-scroll/dist/js/smooth-scroll.min.js" | absURL}}"></script>
+<!-- <script type="text/javascript" src="{{ "plugins/smooth-scroll/dist/js/smooth-scroll.min.js" | absURL}}"></script> -->
 {{"<!-- Magnific popup -->" | safeHTML}}
 <script type="text/javascript" src="{{ "plugins/magnific-popup/dist/jquery.magnific-popup.min.js" | absURL}}"></script>
 {{"<!-- Google Map API -->" | safeHTML}}

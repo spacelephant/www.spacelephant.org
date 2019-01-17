@@ -1,7 +1,7 @@
 {{ with ( index $.Site.Data.goals $.Site.Language.Lang)}}
     {{ if .enable }}
     {{"<!-- Start Goals Section -->" | safeHTML}}
-    <section id="goals" class="parallax-section bg-1 section overly" style='background-image: url("{{ .bgImage | absURL }}")'>
+    <section id="goals" class="parallax-section bg-1 section" style='background-image: url("{{ .bgImage | absURL }}")'>
         <div class="container">
             <div class="row">
 
@@ -9,14 +9,13 @@
                 <div class="title text-center wow fadeInRight" data-wow-duration="500ms">
                     <h2>{{ .heading}} <span class="color">{{ .headingSpan}}</span> </h2>
                     <div class="border"></div>
+                    {{ if .summary}}
+                        <h3 class="summary">
+                            {{ .summary }}    
+                        </h3>
+                    {{ end }}
                 </div>
                 {{"<!-- /section title -->" | safeHTML}}
-
-                {{ if .summary}}
-                    <h3 class="summary">
-                        {{ .summary }}    
-                    </h3>
-                {{ end }}
 
                 <div class="goals">
                     {{ range .goalItem }}

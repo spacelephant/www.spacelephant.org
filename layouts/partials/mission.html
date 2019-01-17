@@ -1,7 +1,7 @@
 {{ with ( index $.Site.Data.mission $.Site.Language.Lang)}}
     {{ if .enable }}
     {{"<!-- Start Mission Section -->" | safeHTML}}
-    <section id="mission" class="parallax-section bg-1 section overly" style='background-image: url("{{ .bgImage | absURL }}")'>
+    <section id="mission" class="parallax-section bg-dark section" style='background-image: url("{{ .bgImage | absURL }}")'>
         <div class="container">
             <div class="row">
 
@@ -9,14 +9,13 @@
                 <div class="title text-center wow fadeInRight" data-wow-duration="500ms">
                     <h2>{{ .heading}} <span class="color">{{ .headingSpan}}</span> </h2>
                     <div class="border"></div>
+                    {{ if .summary}}
+                        <h3 class="summary">
+                            {{ .summary }}    
+                        </h3>
+                    {{ end }}
                 </div>
                 {{"<!-- /section title -->" | safeHTML}}
-
-                {{ if .summary}}
-                    <h3 class="summary">
-                        {{ .summary }}    
-                    </h3>
-                {{ end }}
 
                 <div class="wow fadeIn" data-wow-duration="3000ms">
                     {{ if .leftItem }}
