@@ -1,6 +1,6 @@
 enable: true
 heading: Notre
-headingSpan: Environnement
+headingSpan: Écosystème
 # description: TODO // Description
 actorItem:
 - name: Blockchain & Société

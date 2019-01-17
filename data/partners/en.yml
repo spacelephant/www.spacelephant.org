@@ -5,7 +5,7 @@ description: They support us
 partnerItem:
 - name: Digital School YNOV Campus
   image: /images/partners/ynov.svg
-  moreLink: "https://nantes.ynov.com/"
+  moreLink: "https://ynov.com/"
   description: "Training of computer engineers. 6 campuses in France. We provide the blockchain training program. We source our futur talents. The campus of Nantes hosts our start-up."
 - name: ARK.IO Major Blockchain Actor
   image: /images/partners/ark.svg
@@ -25,5 +25,5 @@ partnerItem:
   description: "French crypto-influencer."
 - name: EMBLOCK
   image: /images/partners/emblock.png
-  moreLink: "https://www.groupe-cyllene.com/"
-  description: "Cloud, hybrid, Expert in infrastructure and in cyber security. Provider of ressources and expertise for our team."
+  moreLink: "https://emblock.co/"
+  description: "Blockchain as a service provider, giving access to multi-blockchains infrastructure, APIs and analytics."
