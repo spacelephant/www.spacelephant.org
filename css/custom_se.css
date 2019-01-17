@@ -21,6 +21,10 @@ p,
   font-family: "Poppins";
 }
 
+.title h3 {
+    padding: 0 1rem;
+}
+
 body {
     font-size: 16px;
     color: #fff;
@@ -28,7 +32,6 @@ body {
 
 h3.summary {
     text-align: center;
-    margin-bottom: 4rem;
 }
 
 a:focus, a:hover {
@@ -211,6 +214,13 @@ a:focus, a:hover {
     height: 100%;
 }
 
+.products .product a:hover p,
+.products .product a:focus p,
+.products .product a:active p,
+.products .product a:visited p {
+    color: #fff;
+}
+
 .products .product .content {
     -webkit-transform: translateZ(0px);
     transform: translateZ(0px);
@@ -233,6 +243,10 @@ a:focus, a:hover {
     padding: 0px;
     margin: 0px auto;
     border: none;
+}
+
+.products .block .icon-box img {
+    max-height: 100px;
 }
 
 .products .block .icon-box:before,
@@ -320,10 +334,14 @@ Y88b  d88P Y88..88P 888  888 888      X88
 #goals .goals .goal {
     margin-bottom: 2rem;
 }
+
+#goals .goals .goal p {
+    padding: 0 1rem;
+}
 #goals .goals .counters-item .goal-image {
-    max-width: 50%;
+    max-height: 100px;
     margin-bottom: 2rem;
-    filter: invert(.5) sepia(1) saturate(5) hue-rotate(175deg);
+    filter: invert(0.5) brightness(100);
 }
 
 #goals .goals .counters-item h3 {
@@ -427,6 +445,10 @@ Y88b  d88P Y88..88P 888  888 888      X88
     padding: 0 3rem
 }
 
+#partners .partner .description .more:not(:hover) {
+    opacity: 0.5;
+}
+
 
 /*
        d8888          888                             
@@ -490,6 +512,15 @@ d88P     888  "Y8888P  "Y888 "Y88P"  888      88888P'
 */
 #footer .contact-infos {
     padding: 30px 10px 0px;
+}
+
+#footer .credits {
+    font-size: 0.7em;
+    opacity: 0.3;
+}
+
+#footer .logo-footer {
+    max-width: 200px;
 }
 
 
