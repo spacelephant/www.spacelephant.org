@@ -4,11 +4,10 @@ image : /images/join/team.jpg
 heading : Rejoignez
 headingSpan : Nous
 subHeading : Nous vous attendons
-description : "Faites nous parvenir un email contenant un lien vers votre profil LinkedIn ou GitHub avec quelques mots pour nous faire part de votre motivation à rejoindre l'équipe entant que :"
+description : "Faites nous parvenir un email contenant un lien vers votre profil LinkedIn et GitHub avec quelques mots pour nous faire part de votre motivation à rejoindre l'équipe entant que :"
 jobItem : 
   - name : Fullstack developper
   - name : Blockchain developper
-  - name : Growthhacker
-  - name : Dev ops
+  - name : Dev Ops
   - name : Security & audit
   - name : or any awesome talents ;-)
