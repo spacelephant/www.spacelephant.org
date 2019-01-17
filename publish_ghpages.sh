@@ -28,3 +28,6 @@ echo "Updating ${PUBLISH_BRANCH} branch"
 cd public
 echo www.spacelephant.org >> CNAME
 git add --all && git commit -m "Publishing to ${PUBLISH_BRANCH} (publish.sh)"
+
+echo "Push to ${PUBLISH_BRANCH} branch"
+git push origin $PUBLISH_BRANCH
