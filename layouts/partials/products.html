@@ -16,14 +16,16 @@
                     {{"<!-- About item -->" | safeHTML}}
                     <div class="col-md-4 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms">
                         <div class="block product">
-                            <div class="icon-box">
-                                {{with .icon}}<img src="{{ . }}" />{{ end }}
-                                {{"<!-- Express About Yourself -->" | safeHTML}}
-                            </div>
-                            <div class="content text-center">
-                                {{ with .title }}<h3 class="ddd">{{ . }}</h3>{{ end }}
-                                {{ with .content}}  <p>{{ . }}</p>{{ end }}
-                            </div>
+                            <a href="{{ .url }}" target="_blank" rel="noopener">
+                                <div class="icon-box">
+                                    {{with .icon}}<img src="{{ . }}" />{{ end }}
+                                    {{"<!-- Express About Yourself -->" | safeHTML}}
+                                </div>
+                                <div class="content text-center">
+                                    {{ with .title }}<h3 class="ddd">{{ . }}</h3>{{ end }}
+                                    {{ with .content}}  <p>{{ . }}</p>{{ end }}
+                                </div>
+                            </a>
                         </div>
                     </div>
                     {{ end }}

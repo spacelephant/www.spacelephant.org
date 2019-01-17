@@ -211,6 +211,13 @@ a:focus, a:hover {
     height: 100%;
 }
 
+.products .product a:hover p,
+.products .product a:focus p,
+.products .product a:active p,
+.products .product a:visited p {
+    color: #fff;
+}
+
 .products .product .content {
     -webkit-transform: translateZ(0px);
     transform: translateZ(0px);

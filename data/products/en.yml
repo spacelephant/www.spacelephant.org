@@ -5,7 +5,9 @@ productItem :
 - icon : /images/products/unik-name.png
   title : "@unik-name"
   content : Universal naming protocol relying on secure digital identifiers. Simplicity and Privacy for data & sharing.
+  url: "https://www.unik-name.com/"
 
 - icon : /images/products/sonarplanet.png
   title : Sonar Planet
   content : "Track any event on public address: new transaction, confirmation, balance threshold... on every blockchains."
+  url : "https://www.sonarplanet.io/"
