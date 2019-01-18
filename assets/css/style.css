@@ -1630,6 +1630,16 @@ a:hover {
   transition: all 400ms ease-out 0s;
 }
 
+/* Only for iOs devices */
+@supports (-webkit-overflow-scrolling: touch) {
+  .social-icon ul li:hover a,
+  .social-icon ul li:hover a i,
+  .social-icon ul li a,
+  .social-icon ul li a i {
+    -webkit-transform: none;
+  }
+}
+
 @media (max-width: 768px) {
   .social-icon ul li a i {
     line-height: 55px;
