@@ -17,11 +17,11 @@ teamMember :
         url : "https://twitter.com/laurentlourenco"
       - icon : fab fa-meetup
         url : "https://www.meetup.com/fr-FR/Blockchain-Societe-Nantes/members/?op=leaders"
-      
+
   - image : /images/team/damien.jpg
     name : Damien Lecan
     anchor : damien
-    designation : CTO & Blockchain Architect / Co-Founder
+    designation : CTO & Blockchain Architect
     description : Damien fell in love with the DLT technology in 2015, then led the charge to develop blockchain-based solutions. A desire to do more has made him become an entrepreneur. Damien is decentralized by design.
     socialIcon :
       - icon : fab fa-linkedin-in
@@ -32,7 +32,7 @@ teamMember :
         url : "https://github.com/dlecan"
       - icon : fab fa-meetup
         url : "https://www.meetup.com/fr-FR/Blockchain-Societe-Nantes/members/?op=leaders"
-      
+
   - image : /images/team/fabien.jpg
     name : Fabien Tréguer
     anchor : fabien
@@ -60,7 +60,7 @@ teamMember :
         url : "https://github.com/Nigui"
       - icon : fab fa-meetup
         url : "https://www.meetup.com/fr-FR/Blockchain-Societe-Nantes/members/?op=leaders"
-    
+
   # - image : /images/team/teddy.jpg
   #   name : Teddy Leclerc
   #   designation : UX/UI Designer / Co-Founder
@@ -70,7 +70,7 @@ teamMember :
   #       url : "https://www.linkedin.com/in/teddy-leclerc-1a9107bb"
   #     - icon : fab fa-twitter
   #       url : "https://twitter.com/teddy_leclerc"
-    
+
   # - image : /images/team/robin.jpg
   #   name : Robin Lacombe-Delpech
   #   designation : Marketing Officer / Blockchain Geek
@@ -82,4 +82,3 @@ teamMember :
   #       url : "https://twitter.com/RbnLcmb"
   #     - icon : tf-ion-ios-book
   #       url : "https://medium.com/@robinlacombe"
-      
