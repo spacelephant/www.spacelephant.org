@@ -1,0 +1,26 @@
+{
+  "name": "www.spacelephant.org",
+  "version": "0.0.0",
+  "description": "Space Elephant corporate website",
+  "scripts": {
+    "clean": "rimraf ./public",
+    "dev": "hugo serve -D",
+    "build": "hugo",
+    "deploy": "./publish_ghpages.sh"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.6.2",
+    "postcss-cli": "^6.1.1",
+    "rimraf": "^2.6.2"
+  },
+  "repository": "git@github.com:spacelephant/www.spacelephant.org.git",
+  "license": "Apache-2.0",
+  "private": true,
+  "author": "Space Elephant <contact@spacelephant.org>",
+  "contributors": [
+    {
+      "name": "Fabien Tréguer http://spacelephant.org#fabien",
+      "email": "fabien.treguer@spacelephant.org"
+    }
+  ]
+}
