@@ -27,7 +27,7 @@
                     {{ range .teamMember}}
                     {{"<!-- team member -->" | safeHTML}}
                     <div class="col-md-3 col-sm-6 col-xs-12  wow fadeInDown team-member-container" data-wow-duration="500ms">
-                        <div class="team-member">
+                        <div class="team-member" id="{{ .anchor }}">
                             <div class="member-photo">
                                 {{"<!-- member photo -->" | safeHTML}}
                                 <img class="img-responsive" src="{{ .image }}" alt="Team member image - {{ .name }}">

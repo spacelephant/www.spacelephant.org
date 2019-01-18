@@ -7,6 +7,7 @@ descriptionItem :
 teamMember :
   - image : /images/team/laurent.jpg
     name : Laurent Lourenço
+    anchor : laurent
     designation : CEO
     description : Exploring bitcoin in 2012 has convinced Laurent that blockchain technology is going to impact Society significantly. On his spare time, Laurent loves sharing barbecues with friends.
     socialIcon :
@@ -19,6 +20,7 @@ teamMember :
       
   - image : /images/team/damien.jpg
     name : Damien Lecan
+    anchor : damien
     designation : CTO & Blockchain Architect / Co-Founder
     description : Damien fell in love with the DLT technology in 2015, then led the charge to develop blockchain-based solutions. A desire to do more has made him become an entrepreneur. Damien is decentralized by design.
     socialIcon :
@@ -33,6 +35,7 @@ teamMember :
       
   - image : /images/team/fabien.jpg
     name : Fabien Tréguer
+    anchor : fabien
     designation : Full-Stack dev
     description : Apart from having a deep interest in the technology and its applications, Fabien spent a considerable amount of time collecting data about Blockchain projects, real-world use-cases, and inter-wallet transactions.
     socialIcon :
@@ -45,6 +48,7 @@ teamMember :
 
   - image : /images/team/guillaume.jpg
     name : Guillaume Nicolas
+    anchor : guillaume
     designation : Blockchain Expert
     description : Guillaume fell in love with the dynamic and caring community, and he decided to make open-source project vision his. Guillaume is developing Blockchain solutions democratizing the use of cryptocurrencies.
     socialIcon :
