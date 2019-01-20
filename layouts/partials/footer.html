@@ -4,18 +4,20 @@
 		<div class="wow fadeInUp" data-wow-duration="500ms">
 			<div class="row">
 				<div class="col-12 col-lg-6 contact-infos">
-						{{ range .Site.Data.contact.contactDetails }}
-						<div class="con-info clearfix">
-							{{ if .href }}
-							<a {{ printf "href=%q" .href | safeHTMLAttr }} >
-								<i class="{{ .icon }}"></i>
-								<span>{{ .info }}</span>
-							</a>
-							{{ else }}
-								<i class="{{ .icon }}"></i>
-								<span>{{ .info }}</span>
+						{{ with ( index $.Site.Data.contact $.Site.Language.Lang)}}
+							{{ range .contactDetails }}
+							<div class="con-info clearfix">
+								{{ if .href }}
+								<a {{ printf "href=%q" .href | safeHTMLAttr }} >
+									<i class="{{ .icon }}"></i>
+									<span>{{ .info }}</span>
+								</a>
+								{{ else }}
+									<i class="{{ .icon }}"></i>
+									<span>{{ .info }}</span>
+								{{ end }}
+							</div>
 							{{ end }}
-						</div>
 						{{ end }}
 				</div>
 				{{"<!-- Footer Social Links -->" | safeHTML}}
@@ -43,11 +45,11 @@
 						Copyright &copy; 
 						<script>
 							document.write(new Date().getFullYear())
-						</script>. All Rights Reserved.
+						</script>. {{ .Site.Params.footer.allrights }}
 					</p>
 
 					<p class="credits">
-						Design based on <a href="https://github.com/themefisher/meghna-hugo">Meghna Template</a> by <a href="https://github.com/themefisher">themefisher</a>
+							{{ ( index $.Site.Data.commonTrads $.Site.Language.Lang ).designBased }} <a href="{{ .Site.Params.footer.credits.templateUrl }}">{{ .Site.Params.footer.credits.templateName }}</a> {{ ( index $.Site.Data.commonTrads $.Site.Language.Lang ).by }} <a href="{{ .Site.Params.footer.credits.creatorUrl }}">{{ .Site.Params.footer.credits.creatorName }}</a>
 					</p>
 				</div>
 			</div>

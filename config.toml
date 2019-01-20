@@ -24,6 +24,34 @@ DefaultContentLanguage = "en"
                 btnText="En savoir plus"
                 btnURL="#products"
 
+            [languages.fr.params.footer]
+                copyright = "Toutes les marques et copyrights reviennent à leurs propriétaires respectifs. Immatriculé #839193422 RCS Nantes, France"
+                allrights = "Tous droits réservés"
+                [languages.fr.params.footer.credits]
+                templateUrl = "https://github.com/themefisher/meghna-hugo"
+                templateName = "Meghna Template"
+                creatorUrl = "https://github.com/themefisher"
+                creatorName = "themefisher"
+                [[languages.fr.params.footer.socialIcon]]
+                icon = "fab fa-twitter"
+                url = "https://twitter.com/spacelephant01"
+
+                [[languages.fr.params.footer.socialIcon]]
+                icon = "fab fa-medium-m"
+                url = "https://medium.com/unik-name"
+
+                [[languages.fr.params.footer.socialIcon]]
+                icon = "fab fa-linkedin-in"
+                url = "https://www.linkedin.com/company/spacelephant/"
+                
+                [[languages.fr.params.footer.socialIcon]]
+                icon = "fab fa-github"
+                url = "https://github.com/spacelephant"
+
+                [[languages.fr.params.footer.socialIcon]]
+                icon = "fas fa-flask"
+                url = "https://github.com/spacelephantlabs"
+
 # Site params
 [params]
 author= "Space Elephant"
@@ -74,7 +102,13 @@ custom_scripts = ["js/custom_se.js"]
     
     # footer
     [params.footer]
-        copyright = "All trademarks and copyrights belong to their respective owners. Incorporated # 839193422 RCS Nantes, France"
+        copyright = "All trademarks and copyrights belong to their respective owners. Incorporated #839193422 RCS Nantes, France"
+        allrights = "All rights reserved"
+        [params.footer.credits]
+            templateUrl = "https://github.com/themefisher/meghna-hugo"
+            templateName = "Meghna Template"
+            creatorUrl = "https://github.com/themefisher"
+            creatorName = "themefisher"
         [[params.footer.socialIcon]]
         icon = "fab fa-twitter"
         url = "https://twitter.com/spacelephant01"

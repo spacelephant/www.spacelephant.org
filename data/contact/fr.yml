@@ -1,6 +1,6 @@
 enable : true
-heading : Get In
-headingSpan : Touch
+# heading : Get In
+# headingSpan : Touch
 # title : Contact Details
 # content : 
 # enable_maps : false
@@ -9,7 +9,7 @@ headingSpan : Touch
 contactDetails :
     
   - icon : tf-ion-ios-telephone-outline
-    info : "Phone: +33 (0)7 82 79 96 61"
+    info : "Téléphone: +33 (0)7 82 79 96 61"
     href : "tel:+33782799661"
     
   - icon : tf-ion-ios-email-outline
