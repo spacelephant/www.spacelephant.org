@@ -22,7 +22,7 @@ echo "Removing existing files"
 rm -rf public/*
 
 echo "Generating site"
-hugo
+yarn build
 
 echo "Updating ${PUBLISH_BRANCH} branch"
 cd public
