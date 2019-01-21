@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^8.6.2",
+    "hugo-cli": "^0.9.0",
     "postcss-cli": "^6.1.1",
     "rimraf": "^2.6.2"
   },
@@ -21,6 +22,10 @@
     {
       "name": "Fabien Tréguer http://spacelephant.org#fabien",
       "email": "fabien.treguer@spacelephant.org"
+    },
+    {
+      "name": "Damien Lecan http://spacelephant.org#damien",
+      "email": "damien.lecan@spacelephant.org"
     }
   ]
 }
