@@ -13,6 +13,21 @@ DefaultContentLanguage = "en"
         weight = 2
         [languages.fr.params]
             home = "Home_FR"
+            description = "Space Elephant, solutions pour un économie décentralisée"
+            keywords = "blockchain, décentralisation, économie, space elephant, spacelephant"
+            [languages.fr.params.og]
+                title= "Solutions pour une économie décentralisée | Space Elephant"
+                description= "Space Elephant, pour une économie décentralisée."
+                url= "https://www.spacelephant.org/"
+                site_name= "Space Elephant"
+                image= "images/spacelephant-opengraph_fr.jpg"
+                image_secrure_url="images/spacelephant-opengraph_fr.jpg"
+
+            [languages.fr.params.twitter]
+                description= "Space Elephant, pour une économie décentralisée."
+                title= "Solutions pour une économie décentralisée | Space Elephant"
+                image= "images/spacelephant-opengraph_fr.jpg"
+
             [languages.fr.params.banner]
                 enable = true
                 heading = "Space Elephant"
@@ -61,7 +76,6 @@ keywords= "blockchain, decentralization, economy, space elephant, spacelephant"
 home= "Home"
 logo = "images/logo_header.png"
 logofooter = "images/logo_white.png"
-# gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"
 
 # Google Analytics ID
 gaid= "UA-115765369-1"
@@ -79,7 +93,7 @@ custom_scripts = ["js/custom_se.js"]
     url= "https://www.spacelephant.org/"
     site_name= "Space Elephant"
     image= "images/spacelephant-opengraph.jpg"
-    image_secrure_url="images/homepage-screenshot.jpg"
+    image_secrure_url="images/spacelephant-opengraph.jpg"
 
     # Meta Twitter
     [params.twitter]

@@ -10,13 +10,13 @@
     {{ with $.Site.Params.og.description }}<meta property="og:description" content="{{ . }}" />{{ end }}
     {{ with $.Site.Params.og.url }}<meta property="og:url" content="{{ . }}" />{{ end }}
     {{ with $.Site.Params.og.site_name }}<meta property="og:site_name" content="{{ . }}" />{{ end }}
-    {{ with $.Site.Params.og.image }}<meta property="og:image" content="{{ $.Site.BaseURL}}{{ . }}" />{{ end }}
-    {{ with $.Site.Params.og.image_secure_url }}<meta property="og:image:secure_url" content="{{ . }}" />{{ end }}
+    {{ with $.Site.Params.og.image }}<meta property="og:image" content="{{ . | absURL }}" />{{ end }}
+    {{ with $.Site.Params.og.image_secure_url }}<meta property="og:image:secure_url" content="{{ . | absURL }}" />{{ end }}
     
     <meta name="twitter:card" content="summary_large_image" />
     {{ with $.Site.Params.og.description }}<meta name="twitter:description" content="{{ . }}" />{{ end }}
     {{ with $.Site.Params.og.title }}<meta name="twitter:title" content="{{ . }}" />{{ end }}
-    {{ with $.Site.Params.og.image }}<meta name="twitter:image" content="{{ . }}" />{{ end }}
+    {{ with $.Site.Params.og.image }}<meta name="twitter:image" content="{{ . | absURL }}" />{{ end }}
     
     <script type='application/ld+json'>{"@context": "https:\/\/schema.org","@type": "WebSite","@id": "#website","url": "https:\/\/www.spacelephant.org\/","name": "Space Elephant"}</script>
     <script type='application/ld+json'>{"@context": "https:\/\/schema.org","@type": "Organization","url": "https:\/\/www.spacelephant.org\/","sameAs": ["https:\/\/www.linkedin.com\/company\/spacelephant"],"@id": "#organization","name": "Space Elephant","logo": "https:\/\/www.spacelephant.org\/images\/logo_header.png"}</script>
