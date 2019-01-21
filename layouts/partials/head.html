@@ -6,16 +6,16 @@
     {{ with $.Site.Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
     {{ with $.Site.Language.Lang }}<meta property="og:locale" content="{{ . }}" />{{ end}}
     <meta property="og:type" content="website" />
-    {{ with $.Site.Params.og.title }}<meta property="og:title" content="{{ . }}" />{{ end }}
-    {{ with $.Site.Params.og.description }}<meta property="og:description" content="{{ . }}" />{{ end }}
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
     {{ with $.Site.Params.og.url }}<meta property="og:url" content="{{ . }}" />{{ end }}
     {{ with $.Site.Params.og.site_name }}<meta property="og:site_name" content="{{ . }}" />{{ end }}
     {{ with $.Site.Params.og.image }}<meta property="og:image" content="{{ . | absURL }}" />{{ end }}
     {{ with $.Site.Params.og.image_secure_url }}<meta property="og:image:secure_url" content="{{ . | absURL }}" />{{ end }}
 
     <meta name="twitter:card" content="summary_large_image" />
-    {{ with $.Site.Params.og.description }}<meta name="twitter:description" content="{{ . }}" />{{ end }}
-    {{ with $.Site.Params.og.title }}<meta name="twitter:title" content="{{ . }}" />{{ end }}
+    <meta name="twitter:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+    <meta name="twitter:title" content="{{ .Title }}" />
     {{ with $.Site.Params.og.image }}<meta name="twitter:image" content="{{ . | absURL }}" />{{ end }}
 
     <script type='application/ld+json'>{"@context": "https:\/\/schema.org","@type": "WebSite","@id": "#website","url": "https:\/\/www.spacelephant.org\/","name": "Space Elephant"}</script>
@@ -25,7 +25,7 @@
 
     <link rel="canonical" href="{{ .Permalink | safeURL }}">
 
-    <title> {{ .Title }} </title>
+    <title>{{ .Title }}</title>
 
     {{"<!-- Favicon -->" |safeHTML}}
     <link rel="shortcut icon" type="image/x-icon" href="{{ "images/favicon.ico" | absURL }}"/>

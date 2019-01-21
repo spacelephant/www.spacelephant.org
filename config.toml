@@ -8,24 +8,21 @@ DefaultContentLanguage = "en"
 [languages]
     [languages.en]
         weight = 1
-    
+
     [languages.fr]
         weight = 2
+        title= "Solutions pour une économie décentralisée | Space Elephant"
         [languages.fr.params]
             home = "Home_FR"
             description = "Space Elephant, solutions pour un économie décentralisée"
             keywords = "blockchain, décentralisation, économie, space elephant, spacelephant"
             [languages.fr.params.og]
-                title= "Solutions pour une économie décentralisée | Space Elephant"
-                description= "Space Elephant, pour une économie décentralisée."
                 url= "https://www.spacelephant.org/"
                 site_name= "Space Elephant"
                 image= "images/spacelephant-opengraph_fr.jpg"
                 image_secrure_url="images/spacelephant-opengraph_fr.jpg"
 
             [languages.fr.params.twitter]
-                description= "Space Elephant, pour une économie décentralisée."
-                title= "Solutions pour une économie décentralisée | Space Elephant"
                 image= "images/spacelephant-opengraph_fr.jpg"
 
             [languages.fr.params.banner]
@@ -58,7 +55,7 @@ DefaultContentLanguage = "en"
                 [[languages.fr.params.footer.socialIcon]]
                 icon = "fab fa-linkedin-in"
                 url = "https://www.linkedin.com/company/spacelephant/"
-                
+
                 [[languages.fr.params.footer.socialIcon]]
                 icon = "fab fa-github"
                 url = "https://github.com/spacelephant"
@@ -70,9 +67,9 @@ DefaultContentLanguage = "en"
 # Site params
 [params]
 author= "Space Elephant"
-description= "Space Elephant, solutions for decentralized economy"
+description= "Space Elephant, solutions for a decentralized economy"
 keywords= "blockchain, decentralization, economy, space elephant, spacelephant"
-    
+
 home= "Home"
 logo = "images/logo_header.png"
 logofooter = "images/logo_white.png"
@@ -88,8 +85,6 @@ custom_scripts = ["js/custom_se.js"]
 
     # Meta og
     [params.og]
-    title= "Solutions for a decentralized economy | Space Elephant"
-    description= "Space Elephant, solutions for decentralized economy."
     url= "https://www.spacelephant.org/"
     site_name= "Space Elephant"
     image= "images/spacelephant-opengraph.jpg"
@@ -97,10 +92,8 @@ custom_scripts = ["js/custom_se.js"]
 
     # Meta Twitter
     [params.twitter]
-    description= "Space Elephant, solutions for decentralized economy."
-    title= "Solutions for a decentralized economy | Space Elephant"
     image= "images/homepage-screenshot.jpg"
-    
+
     # Banner Section
     [params.banner]
     enable = true
@@ -109,11 +102,11 @@ custom_scripts = ["js/custom_se.js"]
     heading = "Space Elephant"
     logotitle = "images/title_only.png"
     logoonly = "images/logo_only.png"
-    content= "Solutions for an emerging decentralized economy"
+    content= "Solutions for a decentralized economy"
     btn = true
     btnText="Explore Us"
     btnURL="#mission"
-    
+
     # footer
     [params.footer]
         copyright = "All trademarks and copyrights belong to their respective owners. Incorporated #839193422 RCS Nantes, France"
@@ -134,7 +127,7 @@ custom_scripts = ["js/custom_se.js"]
         [[params.footer.socialIcon]]
         icon = "fab fa-linkedin-in"
         url = "https://www.linkedin.com/company/spacelephant/"
-        
+
         [[params.footer.socialIcon]]
         icon = "fab fa-github"
         url = "https://github.com/spacelephant"
