@@ -18,6 +18,9 @@ actorItem:
 - name: The Non-Fungible Token Alliance
   image: /images/actors/NTFA.svg
   moreLink: "https://nonfungiblealliance.org/"
+- name: BCDiploma
+  image: /images/actors/BCD.png
+  moreLink: "https://www.bcdiploma.com/"
 # - name: EthDroid
 #   image: /images/actors/bs44.svg
 #   moreLink: "https://github.com/ethmobile/ethdroid/"
