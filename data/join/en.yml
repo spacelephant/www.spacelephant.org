@@ -4,11 +4,11 @@ image : /images/join/team.jpg
 heading : Join
 headingSpan : Us
 subHeading : We are looking for you
-description : "Email us a quick link to your LinkedIn and Github profile with a few words on why you think you are a good fit highlighting any of the above items to:"
-jobItem : 
+description : "Email us a quick link to your resume and/or your LinkedIn, Github ... profiles with a few words on why you think you are a good fit highlighting any of the above items to:"
+jobItem :
   - name : Fullstack developer
-  - name : Blockchain developer
-  - name : Dev Ops
+  - name : "Blockchain developer: Ethereum, Hyperledger, Ark, EOS, Multichain..."
+  - name : DevOps
   - name : Security & audit
   - name : Product Owner
   - name : DLT Expert

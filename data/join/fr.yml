@@ -3,12 +3,12 @@ contactEmail : jobs@spacelephant.org
 image : /images/join/team.jpg
 heading : Rejoignez
 headingSpan : Nous
-subHeading : Nous vous attendons
-description : "Faites nous parvenir un email contenant un lien vers votre profil LinkedIn et GitHub avec quelques mots pour nous faire part de votre motivation à rejoindre l'équipe entant que :"
-jobItem : 
-  - name : Développeur Full-Stack
-  - name : Développeur Blockchain
-  - name : Dev Ops
+subHeading : Nous sommes à votre recherche
+description : "Faites nous parvenir un email avec votre CV et/ou vos profils LinkedIn, GitHub... accompagnés de quelques mots nous faisant part de votre motivation à rejoindre l'équipe, en tant que :"
+jobItem :
+  - name : Développeur Fullstack
+  - name : "Développeur Blockchain : Ethereum, Hyperledger, Ark, EOS, Multichain..."
+  - name : DevOps
   - name : Sécurité & audit
   - name : Product Owner
   - name : Expert DLT

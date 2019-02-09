@@ -15,7 +15,7 @@ menuItem :
 # - name : "Advisors"
 #   url : "our-advisors"
 
-- name : "Carreer"
+- name : "Career"
   url : "join-us"
 
 - name : "Partners"
