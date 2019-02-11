@@ -433,7 +433,7 @@ Y88b  d88P Y88..88P 888  888 888      X88
 #partners .partner .logo img {
     max-height: 100%;
     max-width: 40%;
-    filter: invert(0.5) brightness(100);
+    filter: brightness(0) invert(1);
 }
 
 #partners .partner:hover .logo img {
@@ -488,7 +488,7 @@ d88P     888  "Y8888P  "Y888 "Y88P"  888      88888P'
 }
 #actors .logos .counters-item img {
     height: 50px;
-    filter: invert(0.5) brightness(100);
+    filter: brightness(0) invert(1);
 }
 
 #actors .logos .counters-item:hover img {
