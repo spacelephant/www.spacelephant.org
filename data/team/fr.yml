@@ -22,7 +22,7 @@ teamMember :
     name : Damien Lecan
     anchor : damien
     designation : CTO & Blockchain Architect
-    description : "Damien est tombé amoureux des technologies du décentralisé en 2015, avant de prendre la tête du développement de solutions basées sur la Blockchain. Son désir de faire plus l'a fait devenir entrepreneur. Damien est décentralisé par conception."
+    description : "Damien est tombé amoureux des technologies décentralisées en 2015, puis il s'est lancé dans le développement de solutions basées sur la Blockchain. Sa volonté d'aller plus loin l'a poussé vers l'entreprenariat. Damien est décentralisé par nature."
     socialIcon :
       - icon : fab fa-linkedin-in
         url : "https://www.linkedin.com/in/damienlecan"
