@@ -3,7 +3,7 @@ heading : The
 headingSpan : Founders
 descriptionItem :
 - content : We are proud to contribute to the generous, disruptive, universal impact of blockchain-based services.
-- content : We support decentralizing everything and yet we use GAFA services, we are neither perfect nor cynics...
+- content : We support decentralizing everything and yet we still use GAFAM services. We are neither perfect nor cynics...
 teamMember :
   - image : /images/team/laurent.jpg
     name : Laurent Lourenço
@@ -50,7 +50,7 @@ teamMember :
     name : Guillaume Nicolas
     anchor : guillaume
     designation : Blockchain Expert
-    description : Guillaume fell in love with the dynamic and caring community, and he decided to make open-source project vision his. Guillaume is developing Blockchain solutions democratizing the use of crypto-currencies.
+    description : Guillaume fell in love with the dynamic and caring Blockchain community, and he decided to make open-source project vision his. Guillaume is developing Blockchain solutions democratizing the use of crypto-currencies.
     socialIcon :
       - icon : fab fa-linkedin-in
         url : "https://www.linkedin.com/in/guillaume-nicolas-8177427b"

@@ -2,14 +2,14 @@ enable : true
 heading : Les
 headingSpan : Fondateurs
 descriptionItem :
-- content : Nous sommes fiers de contribuer au généreux, disruptif et universel impact sur les services basés sur la blockchain.
-- content : Nous participons à la décentralisation en général et utilisons malgré tout les services du GAFA, nul n'est parfait...
+- content : Nous sommes fiers de contribuer aux impacts majeurs, disruptifs et universels des services basés sur la blockchain.
+- content : Nous encourageons décentralisation au maximum et utilisons malgré tout les services des GAFAM. Nul n'est parfait...
 teamMember :
   - image : /images/team/laurent.jpg
     name : Laurent Lourenço
     anchor : laurent
     designation : CEO
-    description : "Depuis qu'il a découvert Bitcoin en 2012, Laurent est convaincu que la technologie Blockchain va avoir un impact considérable sur la société. Pendant son temps libre, Laurent est quelqu'un qui apprécie partager des barbecues avec des amis."
+    description : "Depuis qu'il a découvert Bitcoin en 2012, Laurent est convaincu que la technologie Blockchain va avoir un impact considérable sur la société. Sur son temps libre, Laurent apprécie partager des barbecues avec des amis."
     socialIcon :
       - icon : fab fa-linkedin-in
         url : "https://www.linkedin.com/in/laurentlourenco"
@@ -37,7 +37,7 @@ teamMember :
     name : Fabien Tréguer
     anchor : fabien
     designation : Full-Stack dev
-    description : "En plus de s'intéresser de près aux technologies du décentralisé et à leurs applications, Fabien a passé beaucoup de temps à collecter des données sur les projets Blockchain, les cas d'usages réels et les transactions inter-portefeuilles."
+    description : "En plus de s'intéresser de près aux technologies décentralisées et à leurs applications, Fabien a passé beaucoup de temps à collecter des données sur les projets Blockchain, les cas d'usages réels et les transactions inter-portefeuilles."
     socialIcon :
       - icon : fab fa-linkedin-in
         url : "https://www.linkedin.com/in/fabientreguer"
@@ -50,7 +50,7 @@ teamMember :
     name : Guillaume Nicolas
     anchor : guillaume
     designation : Blockchain Expert
-    description : "Guillaume a intégré très tôt la communauté Blockchain pour son dynamisme et sa bienveillance avant de décider de faire de sienne la vision Open-Source. Guillaume développe des solutions Blockchain démocratisant l'utilisation des crypto-monnaies."
+    description : "Guillaume a intégré très tôt la communauté Blockchain pour son dynamisme et sa bienveillance avant de décider de faire de sienne la vision Open-Source. Guillaume développe des solutions Blockchain démocratisant l'usage des crypto-monnaies."
     socialIcon :
       - icon : fab fa-linkedin-in
         url : "https://www.linkedin.com/in/guillaume-nicolas-8177427b"
