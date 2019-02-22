@@ -4,10 +4,8 @@ headingSpan : Mission
 summary : "Des solutions pour la communauté blockchain centrées sur l'utilisateur."
 # bgImage : "images/backgrounds/world_2.jpg"
 leftItem :
-  - content : "Il est fort probable que de nombreux aspects de la société soient bientôt modernisés: systèmes de gouvernance, pouvoirs financiers, éducatifs et économiques. Les monopoles en place, les processus et les normes deviennent rapidement obsolètes depuis la crise mondiale de confiance et les turbulences financières de 2008. Seulement une infime fraction des nombreux avantages offert par un tel changement de paradigme peut déjà être imaginée ..."
-  - content : "Nous pensons véritablement que la blockchain fournit une base solide pour une confiance, une transparence et une collaboration plus profonde, tout en permettant une répartition plus juste de la valeur entre les individus, les organisations et les sociétés du monde entier."
-rightItem : 
-    - content : "Cependant les blockchains, encore à l'aube de leur développement, restent encore des écosystèmes techniquement complexes."
-    - content : "Tout reste à faire. Frustrés par la complexité inutile des méthodes actuelles de traitement des transactions les plus simples, nous nous sommes engagé à co-créer de meilleures solutions."
-    - content : "Space Elephant conçoit et développe des solutions radicalement sécurisées, inclusives, simples et puissantes au service de l'évolution de l'économie décentralisée et du grand public."
-      style : bold
+  - content : "Space Elephant est une ESN spécialisée dans les projets de transformation digitale avec une expertise Blockchain, concepteur de ses propres solutions, et contributeur Open Source."
+  - content : "Chez Space Elephant nous nous mobilisons pour créer des solutions pour servir l’économie décentralisée."
+rightItem :
+    - content : "A partir d’une simple idée ou bien d’un besoin clairement identifié, que vous soyez dans une démarche d’innovation ou à la recherche d’optimisations, nous concevons et réalisons des solutions sur-mesure qui répondent à vos attentes."
+    - content : "Si votre projet s’y prête nous pouvons intervenir dans le cadre d’un partenariat dans lequel nous sommes intéressés aux résultats."
