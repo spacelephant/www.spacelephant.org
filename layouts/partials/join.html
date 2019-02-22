@@ -11,7 +11,14 @@
                     <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-0 content">
                         {{"<!-- section title -->" | safeHTML}}
                         <div class="title text-center wow fadeInRight" data-wow-duration="500ms">
-                            <h2>{{ .heading}} <span class="color">{{ .headingSpan}}</span> </h2>
+                            <a href="#join-us">
+                                <h2>
+                                  <span class="hidden-title-link">
+                                    <i class="fas fa-link"></i>
+                                  </span>
+                                  {{ .heading}} <span class="color">{{ .headingSpan}}</span>
+                                </h2>
+                              </a>
                             <div class="border"></div>
                             <h3>{{ .subHeading }}</h3>
                         </div>
@@ -34,7 +41,7 @@
                             {{ end }}
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </section>

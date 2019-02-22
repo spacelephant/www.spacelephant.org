@@ -6,11 +6,18 @@
             <div class="row">
                 {{"<!-- section title -->" | safeHTML}}
                 <div class="title text-center wow fadeInRight" data-wow-duration="500ms">
-                    <h2>{{ .heading}} <span class="color">{{ .headingSpan}}</span> </h2>
+                    <a href="#actors">
+                        <h2>
+                          <span class="hidden-title-link">
+                            <i class="fas fa-link"></i>
+                          </span>
+                          {{ .heading}} <span class="color">{{ .headingSpan}}</span>
+                        </h2>
+                      </a>
                     <div class="border"></div>
                     {{ if .description}}
                     <h3 class="description">
-                        {{ .description }}    
+                        {{ .description }}
                     </h3>
                     {{ end }}
                 </div>

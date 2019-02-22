@@ -5,10 +5,16 @@
     <section id="our-team" class="section">
         <div class="container">
             <div class="row">
-
                 {{"<!-- section title -->" | safeHTML}}
                 <div class="title text-center wow fadeInLeft" data-wow-duration="500ms">
-                    <h2>{{ .heading }} <span class="color">{{ .headingSpan }}</span></h2>
+                    <a href="#our-team">
+                        <h2>
+                          <span class="hidden-title-link">
+                            <i class="fas fa-link"></i>
+                          </span>
+                          {{ .heading}} <span class="color">{{ .headingSpan}}</span>
+                        </h2>
+                      </a>
                     <div class="border"></div>
                 </div>
                 {{"<!-- /section title -->" | safeHTML}}
@@ -17,7 +23,7 @@
                 <div class="descriptions">
                     {{ range .descriptionItem }}
                     <p class="description text-center">
-                        {{ .content }}    
+                        {{ .content }}
                     </p>
                     {{ end }}
                 </div>
