@@ -93,6 +93,10 @@ a:focus, a:hover {
     background-color: rgba(249, 148, 0, 0.7);
 }
 
+.member-photo .mask ul {
+  top: calc(50% - 17px);
+}
+
 .member-photo .mask ul li a:hover {
     color: #530666;
 }
