@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="wow fadeInUp" data-wow-duration="500ms">
 			<div class="row">
-				<div class="col-12 col-lg-6 contact-infos">
+				<div class="col-12 col-lg-5 contact-infos">
 						{{ with ( index $.Site.Data.contact $.Site.Language.Lang)}}
 							{{ range .contactDetails }}
 							<div class="con-info clearfix">
@@ -21,7 +21,7 @@
 						{{ end }}
 				</div>
 				{{"<!-- Footer Social Links -->" | safeHTML}}
-				<div class="social-icon col-12 col-lg-6">
+				<div class="social-icon col-12 col-lg-7">
 					<ul class="list-inline">
 						{{ range .Site.Params.footer.socialIcon }}
             			<li><a href="{{ .url }}" target="_blank"><i class="{{ .icon }}"></i></a></li>
@@ -33,7 +33,7 @@
 				<div class="copyright text-center">
 					{{ $languagePath := (cond (eq ($.Site.Language.Lang) "en") "" (printf "/%s" $.Site.Language.Lang)) }}
 					<a href="{{ .Site.BaseURL | absURL }}{{ $languagePath }}">
-						<img class="logo-footer" src="{{ .Site.Params.logofooter | absURL }}" alt="logo space elephant" /> 
+						<img class="logo-footer" src="{{ .Site.Params.logofooter | absURL }}" alt="logo space elephant" />
 					</a>
 					<br>
 
@@ -42,7 +42,7 @@
 					</p>
 
 					<p>
-						Copyright &copy; 
+						Copyright &copy;
 						<script>
 							document.write(new Date().getFullYear())
 						</script>. {{ .Site.Params.footer.allrights }}
@@ -59,7 +59,7 @@
 {{"<!-- /footer -->" | safeHTML}}
 
 {{"<!-- Essential Scripts -->" | safeHTML}}
-		
+
 {{"<!-- Font CDN import  -->" | safeHTML}}
 <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet" type="text/css" />
 

@@ -10,7 +10,7 @@
                     <div class="border"></div>
                     {{ if .description}}
                     <h3 class="description">
-                        {{ .description }}    
+                        {{ .description }}
                     </h3>
                     {{ end }}
                 </div>
@@ -18,7 +18,7 @@
 
                 <div class="logos wow fadeIn" data-wow-duration="3000ms">
                     {{ range .actorItem }}
-                    <div class="col-xs-6 col-sm-4 col-md-2 text-center actor wow fadeIn" data-wow-duration="500ms">
+                    <div class="col-xs-12 col-sm-4 col-md-2 text-center actor wow fadeIn" data-wow-duration="500ms">
                         <div class="counters-item">
                             <a class="more" href="{{ .moreLink }}" target="_blank">
                                     <img src="{{ .image }}" />
