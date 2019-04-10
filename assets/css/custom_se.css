@@ -193,6 +193,10 @@ a:hover {
   color: #f99400 !important;
 }
 
+#navigation-sticky-wrapper {
+  height: auto !important;
+}
+
 /*
 8888888b.                       888                   888
 888   Y88b                      888                   888
