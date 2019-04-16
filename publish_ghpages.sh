@@ -1,5 +1,4 @@
-
-#!/bin/sh
+#!/bin/bash
 
 PUBLISH_BRANCH="gh-pages"
 
