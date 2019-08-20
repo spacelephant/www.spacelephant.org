@@ -9,10 +9,13 @@
     "deploy": "./publish_ghpages.sh"
   },
   "devDependencies": {
-    "autoprefixer": "^8.6.2",
-    "hugo-cli": "^0.9.0",
-    "postcss-cli": "^6.1.1",
-    "rimraf": "^2.6.2"
+    "autoprefixer": "^9.6.1",
+    "hugo-cli": "^0.11.0",
+    "postcss-cli": "^6.1.3",
+    "rimraf": "^3.0.0"
+  },
+  "resolutions": {
+    "**/lodash": "^4.17.13"
   },
   "repository": "git@github.com:spacelephant/www.spacelephant.org.git",
   "license": "Apache-2.0",
@@ -27,5 +30,8 @@
       "name": "Damien Lecan http://spacelephant.org#damien",
       "email": "damien.lecan@spacelephant.org"
     }
+  ],
+  "browserslist": [
+    "defaults"
   ]
 }
