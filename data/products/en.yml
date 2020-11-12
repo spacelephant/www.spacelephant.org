@@ -1,13 +1,13 @@
 enable : true
 heading : Our
 headingSpan : Products
-productItem : 
-- icon : /images/products/unik-name.png
-  title : "@unik-name"
-  content : Universal naming protocol relying on secure digital identifiers. Simplicity and Privacy for data & sharing.
-  url: "https://www.unik-name.com/"
+productItem :
+- icon : "https://cdn.unikname.com/logos/svg/logo-unikname-icon-white.svg"
+  title : "Unikname"
+  content : "Unikname™ is an European cyber-solution aiming of securing internet platforms and protecting user's privacy. Unikname™ is a next‑gen Authentication Solution based on a blockchain."
+  url: "https://www.unikname.com/"
 
-- icon : /images/products/sonarplanet.png
-  title : Sonar Planet
-  content : "Track any event on public address: new transaction, confirmation, balance threshold... on every blockchains."
-  url : "https://www.sonarplanet.io/"
+- icon : "https://cdn.unikname.com/logos/svg/logo-uns-network-white.svg"
+  title : uns.network
+  content : "uns.network blockchain provides SSID (Decentralized IDentity) and DPKI (Decentralized Public Key Infrastructure) for the Unikname™ next‑gen Authentication Solution."
+  url : "https://www.uns.network/"
