@@ -50,7 +50,7 @@ DefaultContentLanguage = "en"
 
                 [[languages.fr.params.footer.socialIcon]]
                 icon = "fab fa-medium-m"
-                url = "https://medium.com/unik-name"
+                url = "https://www.unikname.com/blog/"
 
                 [[languages.fr.params.footer.socialIcon]]
                 icon = "fab fa-linkedin-in"
@@ -122,7 +122,7 @@ custom_scripts = ["js/custom_se.js"]
 
         [[params.footer.socialIcon]]
         icon = "fab fa-medium-m"
-        url = "https://medium.com/unik-name"
+        url = "https://www.unikname.com/blog/"
 
         [[params.footer.socialIcon]]
         icon = "fab fa-linkedin-in"
