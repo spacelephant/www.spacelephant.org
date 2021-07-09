@@ -3,27 +3,27 @@ heading: Our
 headingSpan: Partners
 description: They support us
 partnerItem:
-- name: Digital School YNOV Campus
-  image: /images/partners/ynov.svg
-  moreLink: "https://ynov.com/"
-  description: "Training of computer engineers. 6 campuses in France. We provide the blockchain training program. We source our futur talents. The campus of Nantes hosts our start-up."
-- name: ARK.IO Major Blockchain Actor
-  image: /images/partners/ark.svg
-  moreLink: "https://ark.io/"
-  description: "DPOS Blockchain type framework, one of the most powerful on the market. The blockchain architecture of UNS relies on this technology."
-- name: CYLLENE French Datacenter
-  image: /images/partners/cyllene.png
-  moreLink: "https://www.groupe-cyllene.com/"
-  description: "Cloud, hybrid, Expert in infrastructure and in cyber security. Provider of ressources and expertise for our team."
-- name: BIGBLOCK Datacenter
-  image: /images/partners/BBDC.png
-  moreLink: "https://www.bdatacenter.fr/"
-  description: "Blockchain calculations and mining, transaction validation."
-- name: Cryptodidacte
-  image: /images/partners/cryptodidacte.png
-  moreLink: "https://www.cryptodidacte.fr/"
-  description: "French crypto-influencer."
-- name: EMBLOCK
-  image: /images/partners/emblock.png
-  moreLink: "https://emblock.co/"
-  description: "Blockchain as a service provider, giving access to multi-blockchains infrastructure, APIs and analytics."
+  - name: Digital School YNOV Campus
+    image: /images/partners/ynov.svg
+    moreLink: "https://ynov.com/"
+    description: "Training of computer engineers. 6 campuses in France. We provide the blockchain training program. We source our futur talents. The campus of Nantes hosts our start-up."
+  - name: ARK.IO Major Blockchain Actor
+    image: /images/partners/ark.svg
+    moreLink: "https://ark.io/"
+    description: "DPOS Blockchain type framework, one of the most powerful on the market. The blockchain architecture of Unikname Network relies on this technology."
+  - name: CYLLENE French Datacenter
+    image: /images/partners/cyllene.png
+    moreLink: "https://www.groupe-cyllene.com/"
+    description: "Cloud, hybrid, Expert in infrastructure and in cyber security. Provider of ressources and expertise for our team."
+  - name: BIGBLOCK Datacenter
+    image: /images/partners/BBDC.png
+    moreLink: "https://www.bdatacenter.fr/"
+    description: "Blockchain calculations and mining, transaction validation."
+  - name: Cryptodidacte
+    image: /images/partners/cryptodidacte.png
+    moreLink: "https://www.cryptodidacte.fr/"
+    description: "French crypto-influencer."
+  - name: EMBLOCK
+    image: /images/partners/emblock.png
+    moreLink: "https://emblock.co/"
+    description: "Blockchain as a service provider, giving access to multi-blockchains infrastructure, APIs and analytics."

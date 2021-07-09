@@ -1,13 +1,13 @@
-enable : true
-heading : Nos
-headingSpan : Produits
-productItem :
-- icon : "https://cdn.unikname.com/logos/svg/logo-unikname-icon-white.svg"
-  title : "Unikname"
-  content : "Unikname™ est une cyber-solution qui a pour but de sécuriser les plateformes sur internet et protéger la vie privée des utilisateurs. Unikname™ est une solution d'authentification nouvelle génération basée sur une blockchain."
-  url: "https://www.unikname.com/"
+enable: true
+heading: Nos
+headingSpan: Produits
+productItem:
+  - icon: "https://cdn.unikname.com/logos/svg/logo-unikname-icon-white.svg"
+    title: "Unikname"
+    content: "Unikname™ est une cyber-solution qui a pour but de sécuriser les plateformes sur internet et protéger la vie privée des utilisateurs. Unikname™ est une solution d'authentification nouvelle génération basée sur une blockchain."
+    url: "https://www.unikname.com/"
 
-- icon : "https://cdn.unikname.com/logos/svg/logo-uns-network-white.svg"
-  title : uns.network
-  content : "La blockchain uns.network met à disposition des SSID (Decentralized IDentity) et des DPKI (Decentralized Public Key Infrastructure) pour Unikname™, la solution d'authentification nouvelle génération."
-  url : "https://uns.network/"
+  - icon: "https://cdn.unikname.com/logos/svg/logo-uns-network-white.svg"
+    title: unikname.network
+    content: "La blockchain unikname.network met à disposition des SSID (Decentralized IDentity) et des DPKI (Decentralized Public Key Infrastructure) pour Unikname™, la solution d'authentification nouvelle génération."
+    url: "https://www.unikname.network/"
